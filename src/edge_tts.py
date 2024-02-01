@@ -7,9 +7,13 @@ from pydantic import (
 )
 import httpx
 
+
 class VoiceTag(BaseModel):
-    content_categories:List[str] = Field(List[str], validation_alias=AliasChoices("ContentCategories"))
-    voice_personalities:List[str] = Field(List[str], validation_alias=AliasChoices("VoicePersonalities"))
+    content_categories: List[str] = Field(
+        List[str], validation_alias=AliasChoices("ContentCategories"))
+    voice_personalities: List[str] = Field(
+        List[str], validation_alias=AliasChoices("VoicePersonalities"))
+
 
 class VoiceType(BaseModel):
     """
@@ -32,18 +36,21 @@ class VoiceType(BaseModel):
             }
         }
     """
-    name:str = Field(str, validation_alias=AliasChoices("Name"))
-    short_name:str = Field(str, validation_alias=AliasChoices("ShortName"))
-    gender:str = Field(str, validation_alias=AliasChoices("Gender"))
-    locale:str= Field(str, validation_alias=AliasChoices("Locale"))
-    suggested_codec:str = Field(str, validation_alias=AliasChoices("SuggestedCodec"))
-    friendly_name:str = Field(str, validation_alias=AliasChoices("FriendlyName"))
-    status:str = Field(str, validation_alias=AliasChoices("Status"))
-    voice_tag:VoiceTag =Field(VoiceTag, validation_alias=AliasChoices("VoiceTag"))
+    name: str = Field(str, validation_alias=AliasChoices("Name"))
+    short_name: str = Field(str, validation_alias=AliasChoices("ShortName"))
+    gender: str = Field(str, validation_alias=AliasChoices("Gender"))
+    locale: str = Field(str, validation_alias=AliasChoices("Locale"))
+    suggested_codec: str = Field(
+        str, validation_alias=AliasChoices("SuggestedCodec"))
+    friendly_name: str = Field(
+        str, validation_alias=AliasChoices("FriendlyName"))
+    status: str = Field(str, validation_alias=AliasChoices("Status"))
+    voice_tag: VoiceTag = Field(
+        VoiceTag, validation_alias=AliasChoices("VoiceTag"))
 
 
 class EdgeTtsSDK():
-    
+
     def __init__(self, baseurl=""):
         self.baseurl = baseurl
 
@@ -51,13 +58,12 @@ class EdgeTtsSDK():
         """
         """
         api_url = f"{self.baseurl}/{apipath}"
-        rst = httpx.get(api_url, params=dict(trustedclienttoken=trustedclienttoken))
+        rst = httpx.get(api_url, params=dict(
+            trustedclienttoken=trustedclienttoken))
         if rst.status_code == 200:
             out_l = []
             for i in rst.json():
                 out_l.append(VoiceType.model_validate(i))
             return out_l
         else:
-            raise  rst.raise_for_status()
-        return []
-
+            raise rst.raise_for_status()

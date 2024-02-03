@@ -71,6 +71,7 @@ class EdgeTTS(TTS):
         now = datetime.now(pytz.timezone("Asia/ShangHai"))
         return now.strftime("%a %b %d %y %H:%m:%s GMT+0800 (China Standard Time)Z")
 
+
     def make_voice_type_content_xml(self, content):
         xml_c = f"""<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis'  xml:lang='en-US'><voice name='{
             self.__voice_type.name}'> <prosody pitch='+0Hz' rate ='+0%' volume='+0%'>{content}</prosody></voice></speak>"""

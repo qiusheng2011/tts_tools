@@ -1,16 +1,12 @@
-from email import header, message
-from email.mime import audio
 import json
 import uuid
 from datetime import datetime
 from collections import namedtuple
 import logging
-
 import re
-from httpx import head
+
 import pytz
 import websockets
-
 
 from .tts import (
     TTS,
@@ -31,8 +27,10 @@ EdgeWsJsonResponse = namedtuple(
 
 EdgeWsAudioResponse = namedtuple(
     "EdgeWsAudioResponse",
-    ["xrequest_id", "content_type","xstream_id", "path", "audio_data"]
+    ["xrequest_id", "content_type", "xstream_id", "path", "audio_data"]
 )
+
+
 class EdgeTTS(TTS):
 
     def __init__(self, content: str, voice_type: VoiceType, max_len_content_per_tts=MAX_LEN_CONTENT_PER_TTS):
@@ -44,7 +42,7 @@ class EdgeTTS(TTS):
         self.rsts = []
 
     async def execute(self):
-        rsts = [ None for i in range(self.__content_part_num)]
+        rsts = [None for i in range(self.__content_part_num)]
         self.__status = TTSStatus.DOING
         try:
             for i in range(self.__content_part_num):
@@ -92,7 +90,8 @@ class EdgeTTS(TTS):
         message += "Content-Type:application/json; charset=utf-8\r\n"
         message += "Path:speech.config\r\n\r\n"
         # # audio-24khz-48kbitrate-mono-mp3
-        message += json.dumps({"context": {"synthesis": {"audio": {"metadataoptions": {"sentenceBoundaryEnabled": "false", "wordBoundaryEnabled": "true"}, "outputFormat": f"{self.__voice_type.suggested_codec}"}}}}, ensure_ascii=False) 
+        message += json.dumps({"context": {"synthesis": {"audio": {"metadataoptions": {"sentenceBoundaryEnabled": "false",
+                              "wordBoundaryEnabled": "true"}, "outputFormat": f"{self.__voice_type.suggested_codec}"}}}}, ensure_ascii=False)
 
         return message+"\r\n"
 
@@ -105,7 +104,7 @@ class EdgeTTS(TTS):
             rst=json.loads(data_list[4])
         )
 
-    def parse_byte_response_data(self, response_data:bytes):
+    def parse_byte_response_data(self, response_data: bytes):
         header_length = int.from_bytes(response_data[:2], "big")
         if len(response_data) <= (header_length+2):
             return None

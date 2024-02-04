@@ -38,6 +38,7 @@ class TTS:
         pass
 
     @abstractmethod
-    def 
+    def subtitle_save(self):
+        pass
 
 

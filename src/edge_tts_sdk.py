@@ -4,7 +4,7 @@ from .edge_model import (
     VoiceTag,
     VoiceType
 )
-from edge_tts import EdgeTTS
+from .edge_tts import EdgeTTS
 
 class EdgeTtsSDK():
 
@@ -25,8 +25,8 @@ class EdgeTtsSDK():
         else:
             raise rst.raise_for_status()
 
-    async def text_to_speech(self, content:str, voice_type:VoiceType):
+    def text_to_speech(self, content:str, voice_type:VoiceType):
         tts:EdgeTTS = EdgeTTS(content, voice_type)
-        rst = await tts.execute()
-        return rst
-        
+        tts.execute()
+        rsts = tts.get_rsts()
+        return rsts

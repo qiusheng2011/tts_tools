@@ -1,3 +1,4 @@
+import asyncio
 import json
 import uuid
 from datetime import datetime
@@ -41,24 +42,44 @@ class EdgeTTS(TTS):
 
         self.rsts = []
 
-    async def execute(self):
-        rsts = [None for i in range(self.__content_part_num)]
+    def execute(self):
+        asyncio.run(self.async_execute())
+
+    async def async_execute(self):
+        """切片并发 执行tts 任务
+        """
+        rsts = [ {} for i in range(self.__content_part_num)]
         self.__status = TTSStatus.DOING
         try:
-            for i in range(self.__content_part_num):
-                content_part = self.content[i*self.m_l_c:(i+1)*self.m_l_c]
-                service_tag, audio_info, audio_metadata, audio_bytes = await self.deal_by_wss(content_part)
-                rsts[i] = dict(
-                    service_tag=service_tag,
-                    audio_info=audio_info,
-                    audio_metadata=audio_metadata,
-                    audio_bytes=audio_bytes
-                )
+            tts_wss_tasks = []
+            async with asyncio.TaskGroup() as tg, asyncio.timeout(1200):
+                for i in range(self.__content_part_num):
+                    content_part = self.content[i*self.m_l_c:(i+1)*self.m_l_c]
+                    rsts[i].setdefault("origin_content", content_part)
+                    tts_wss_task = tg.create_task(self.deal_by_wss(content_part), name=i)
+                    asyncio.shield(tts_wss_task)
+                    tts_wss_tasks.append(tts_wss_task)
+
+            for tts_wss_task in  tts_wss_tasks:
+                    service_tag, audio_info, audio_metadata, audio_bytes = tts_wss_task.result()
+                    rsts[int(tts_wss_task.get_name())].update(dict(
+                        service_tag=service_tag,
+                        audio_info=audio_info,
+                        audio_metadata=audio_metadata,
+                        audio_bytes=audio_bytes
+                    ))
+        except TimeoutError as ex:
+            self.__status = TTSStatus.ERROREXIT
+            logging.error("TTS 总耗时超时了")
+            raise ex
         except Exception as ex:
             self.__status = TTSStatus.ERROREXIT
             raise ex
+        finally:
+            #
+            pass
         self.rsts = rsts
-        self.__status = TTSStatus.COMPLETED
+        self.__status = TTSStatus.COMPLETED if self.__status == TTSStatus.DOING else self.__status
 
     def get_rsts(self):
         return self.rsts

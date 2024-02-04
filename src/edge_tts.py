@@ -33,23 +33,31 @@ EdgeWsAudioResponse = namedtuple(
 
 
 class EdgeTTS(TTS):
+    """ 微软Edge文本转语音任务器
+    根据文本分段并发执行转音
 
+    属性：
+        m_l_c: int, 文本分段的长度 #TODO 待优化，目前是按照字节粗暴分段，优化目标按照 标点符号进行分段。
+        rst: list, 转音的结果，保证结果顺序与原文的一致性。
+
+    """
     def __init__(self, content: str, voice_type: VoiceType, max_len_content_per_tts=MAX_LEN_CONTENT_PER_TTS):
         super().__init__(content)
         self.__voice_type = voice_type
         self.m_l_c = max_len_content_per_tts
         self.__content_part_num = int(len(self.content)/self.m_l_c) + 1
-
         self.rsts = []
 
     def execute(self):
+        """执行文本转语音的任务
+        """
         asyncio.run(self.async_execute())
 
     async def async_execute(self):
         """切片并发 执行tts 任务
         """
         rsts = [ {} for i in range(self.__content_part_num)]
-        self.__status = TTSStatus.DOING
+        self.status = TTSStatus.DOING
         try:
             tts_wss_tasks = []
             async with asyncio.TaskGroup() as tg, asyncio.timeout(1200):
@@ -69,17 +77,17 @@ class EdgeTTS(TTS):
                         audio_bytes=audio_bytes
                     ))
         except TimeoutError as ex:
-            self.__status = TTSStatus.ERROREXIT
+            self.status = TTSStatus.ERROREXIT
             logging.error("TTS 总耗时超时了")
             raise ex
         except Exception as ex:
-            self.__status = TTSStatus.ERROREXIT
+            self.status = TTSStatus.ERROREXIT
             raise ex
         finally:
             #
             pass
         self.rsts = rsts
-        self.__status = TTSStatus.COMPLETED if self.__status == TTSStatus.DOING else self.__status
+        self.status = TTSStatus.COMPLETED if self.status == TTSStatus.DOING else self.status
 
     def get_rsts(self):
         return self.rsts
@@ -184,3 +192,25 @@ class EdgeTTS(TTS):
         except Exception as ex:
             raise ex
         return service_tag, audio_info, audio_metadata, audio_bytes
+    
+
+    def audio_save(self, filename, filepath, filetype=None):
+        """存储音频
+
+        Args:
+            filename: str , 文件名称
+            filepath: str, 文件路径
+            filetype: str=None, 文件类型, 内部自动转换格式,为None 就为原声格式
+        """
+        if self.status != TTSStatus.COMPLETED:
+            raise ValueError(f"任务处于{self.status.name}状态,无法完成存储")
+        if not filetype:
+            filetype = self.__voice_type.suggested_codec_audio_type
+        path_file = f"{filepath}/{filename}.{filetype}"
+
+        with open(path_file, "wb+") as bf:
+            for rst in self.rsts:
+                if rst.get("audio_bytes", None):
+                    bf.write(rst["audio_bytes"])
+        
+        return filepath

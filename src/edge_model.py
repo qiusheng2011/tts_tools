@@ -1,9 +1,11 @@
 
+import re
 from typing import List
 from pydantic import (
     BaseModel,
     Field,
-    AliasChoices
+    AliasChoices,
+    computed_field
 )
 
 class VoiceTag(BaseModel):
@@ -46,3 +48,6 @@ class VoiceType(BaseModel):
     voice_tag: VoiceTag = Field(
         VoiceTag, validation_alias=AliasChoices("VoiceTag"))
 
+    @computed_field
+    def suggested_codec_audio_type(self) -> str:
+        return self.suggested_codec.split("-")[-1]

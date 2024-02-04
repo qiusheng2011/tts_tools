@@ -1,6 +1,7 @@
 
 from abc import abstractmethod
 from enum import Enum
+import hashlib
 
 
 class TTSStatus(Enum):
@@ -20,6 +21,7 @@ class TTS:
     def __init__(self, content:str):
         self.status: TTSStatus = TTSStatus.UNSTART
         self.content = content
+        self.content_md5 = hashlib.md5(content.encode()).hexdigest()
 
     @abstractmethod
     def execute(self):

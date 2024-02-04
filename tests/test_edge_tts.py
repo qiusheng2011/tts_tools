@@ -1,9 +1,14 @@
 
+import os
+import sys
 import pytest
 import asyncio
 from src.edge_model import VoiceType
 
 from src.edge_tts import EdgeTTS, VoiceType
+
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 @pytest.fixture
 def edge_tts():
@@ -37,3 +42,4 @@ def test_edge_tts(edge_tts: EdgeTTS ):
     edge_tts.execute()
     rst = edge_tts.get_rsts()
     assert rst != None
+    assert edge_tts.audio_save(edge_tts.content_md5, current_dir)  != None

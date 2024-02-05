@@ -30,3 +30,5 @@ class EdgeTtsSDK():
         tts.execute()
         rsts = tts.get_rsts()
         return rsts
+    
+    def filetext_to_speech(self,)

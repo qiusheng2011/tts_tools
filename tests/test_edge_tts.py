@@ -3,6 +3,7 @@ import os
 import sys
 import pytest
 import asyncio
+import json
 from src.edge_model import VoiceType
 
 from src.edge_tts import EdgeTTS, VoiceType
@@ -18,7 +19,7 @@ def edge_tts():
         "ShortName": "zh-CN-XiaoyiNeural",
         "Gender": "Female",
         "Locale": "zh-CN",
-        "SuggestedCodec": "audio-24khz-48kbitrate-mono-mp3",
+        "SuggestedCodec": "audio-24khz-96kbitrate-mono-mp3",#audio-24khz-48kbitrate-mono-mp3
         "FriendlyName": "Microsoft Xiaoyi Online (Natural) - Chinese (Mainland)",
         "Status": "GA",
         "VoiceTag": {
@@ -43,3 +44,17 @@ def test_edge_tts(edge_tts: EdgeTTS ):
     rst = edge_tts.get_rsts()
     assert rst != None
     assert edge_tts.audio_save(edge_tts.content_md5, current_dir)  != None
+
+def test_edge_tts_deal_audio_metadata_for_subtitle(edge_tts: EdgeTTS ):
+    with open(current_dir+"/audio_metadatas.json", "r") as f:
+        audio_metadatas = json.load(f)
+    rsts =  edge_tts.deal_audio_metadata_for_subtitle(audio_metadatas)
+    assert rsts != None
+
+def test_edge_tts_subtitle_save(edge_tts: EdgeTTS ):
+    edge_tts.execute()
+    rst = edge_tts.get_rsts()
+    assert rst != None
+    assert edge_tts.audio_save(edge_tts.content_md5, current_dir)  != None
+
+    assert edge_tts.subtitle_save(edge_tts.content_md5, current_dir) != None

@@ -1,11 +1,11 @@
 import os
 import httpx
-from edge_model import (
+from .edge_model import (
     VoiceTag,
     VoiceType
 )
-from edge_tts import EdgeTTS
-from tts import TtsSDK
+from .edge_tts import EdgeTTS
+from .tts import TtsSDK
 
 
 class EdgeTtsSDK(TtsSDK):

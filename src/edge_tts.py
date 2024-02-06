@@ -9,11 +9,11 @@ import re
 import pytz
 import websockets
 
-from tts import (
+from .tts import (
     TTS,
     TTSStatus
 )
-from edge_model import (
+from .edge_model import (
     VoiceTag,
     VoiceType
 )
@@ -259,7 +259,7 @@ class EdgeTTS(TTS):
         """
         tmps = []
         for i, s in enumerate(subtile_aduio_metadatas, start=1):
-            tmp = f"{i}\n{self.mktimestamp(s['aduio_start_timestamp'])}-->{self.mktimestamp(s['aduio_end_timestamp'])}\n{s['sentence']}"
+            tmp = f"{i}\n{self.mktimestamp(s['aduio_start_timestamp'])}-->{self.mktimestamp(s['aduio_end_timestamp'])}\n{s['sentence'].strip(r"\r|\n")}"
             tmps.append(tmp)
 
         return "\n\n".join(tmps)
@@ -267,7 +267,7 @@ class EdgeTTS(TTS):
     def deal_audio_metadata_for_subtitle(self, audio_metadatas):
         """ 音频元文字处理成元字幕
         """
-        sentences = re.split("。", self.content)
+        sentences = re.split(r"。｜！|!｜？｜?", self.content)
         a_m_cursor = 0
         rst = []
         for sentence in sentences:

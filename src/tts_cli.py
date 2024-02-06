@@ -2,8 +2,8 @@
 import argparse
 import os
 import sys
-import tts
-from edge_tts_sdk import EdgeTtsSDK
+from . import tts
+from .edge_tts_sdk import EdgeTtsSDK
 class TTSCli():
 
 
@@ -43,7 +43,7 @@ class TTSCli():
         elif self.inputfile and self.voice_type:
             self.tts_sdk.textfile_to_speech_file(self.inputfile, self.voice_type, debug)
 
-if __name__ == "__main__":
+def main():
     tts_cli = TTSCli()
     tts_cli.parse_args()
     tts_cli.execute()

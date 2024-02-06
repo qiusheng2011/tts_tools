@@ -60,3 +60,17 @@ class TTS:
         minute = math.floor((time_unit / 10**7 / 60) % 60)
         seconds = (time_unit / 10**7) % 60
         return f"{hour:02d}:{minute:02d}:{seconds:06.3f}"
+
+
+
+class TtsSDK():
+
+
+    def get_voice_type(self):
+        pass
+
+    def text_to_speech(self, content, voice_type):
+        pass
+
+    def textfile_to_speech_file(self, filepath, voice_type, debug=False):
+        pass

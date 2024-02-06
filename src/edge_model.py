@@ -1,6 +1,7 @@
 
 import re
-from typing import List
+import hashlib
+from typing import List, Optional
 from pydantic import (
     BaseModel,
     Field,
@@ -37,6 +38,7 @@ class VoiceType(BaseModel):
         }
     """
     name: str = Field(str, validation_alias=AliasChoices("Name"))
+    name_md5:Optional[str] = None
     short_name: str = Field(str, validation_alias=AliasChoices("ShortName"))
     gender: str = Field(str, validation_alias=AliasChoices("Gender"))
     locale: str = Field(str, validation_alias=AliasChoices("Locale"))
@@ -51,3 +53,7 @@ class VoiceType(BaseModel):
     @computed_field
     def suggested_codec_audio_type(self) -> str:
         return self.suggested_codec.split("-")[-1]
+    
+    def __init__(self, *arg, **kwargs):
+        super().__init__(*arg, **kwargs)
+        self.name_md5 = hashlib.md5(self.name.encode("utf8")).hexdigest()

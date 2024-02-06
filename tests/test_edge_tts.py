@@ -46,9 +46,43 @@ def test_edge_tts(edge_tts: EdgeTTS ):
     assert edge_tts.audio_save(edge_tts.content_md5, current_dir)  != None
 
 def test_edge_tts_deal_audio_metadata_for_subtitle(edge_tts: EdgeTTS ):
-    with open(current_dir+"/audio_metadatas.json", "r") as f:
+    with open(current_dir+"/audiometadatas.json", "r") as f:
         audio_metadatas = json.load(f)
     rsts =  edge_tts.deal_audio_metadata_for_subtitle(audio_metadatas)
+    assert rsts != None
+
+
+@pytest.fixture
+def edge_tts_long():
+
+    content = ""
+    with open("./tests/test.txt", "r") as f:
+        content = f.read()
+    voice_type = VoiceType.model_validate({
+        "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyiNeural)",
+        "ShortName": "zh-CN-XiaoyiNeural",
+        "Gender": "Female",
+        "Locale": "zh-CN",
+        "SuggestedCodec": "audio-24khz-96kbitrate-mono-mp3",#audio-24khz-48kbitrate-mono-mp3
+        "FriendlyName": "Microsoft Xiaoyi Online (Natural) - Chinese (Mainland)",
+        "Status": "GA",
+        "VoiceTag": {
+        "ContentCategories": [
+            "Cartoon",
+            "Novel"
+        ],
+        "VoicePersonalities": [
+            "Lively"
+        ]
+        }
+    })
+    return EdgeTTS(content, voice_type, max_len_content_per_tts=int(len(content)/2)+1)
+
+def test_edge_tts_deal_audio_metadata_for_subtitle_for_long(edge_tts_long: EdgeTTS ):
+
+    with open(current_dir+"/audiometadatas_long.json", "r") as f:
+        audio_metadatas = json.load(f)
+    rsts =  edge_tts_long.deal_audio_metadata_for_subtitle(audio_metadatas)
     assert rsts != None
 
 def test_edge_tts_subtitle_save(edge_tts: EdgeTTS ):

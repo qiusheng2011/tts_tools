@@ -9,11 +9,11 @@ import re
 import pytz
 import websockets
 
-from .tts import (
+from tts import (
     TTS,
     TTSStatus
 )
-from .edge_model import (
+from edge_model import (
     VoiceTag,
     VoiceType
 )
@@ -214,22 +214,27 @@ class EdgeTTS(TTS):
 
         return path_file
 
-    def subtitle_save(self, filename, filepath, subtile_type="srt"):
+    def subtitle_save(self, filename, filepath, subtile_type="srt", debug=False):
         """ 存储字幕文件
         """
         super().subtitle_save(filename, filepath, subtile_type)
-
         path_file = f"{filepath}/{filename}.{subtile_type}"
-
         audio_metadatas = []
         off_set = 0
+
+        #DEBUG-START debug 模式存储 原始文件
+        if debug:
+              with open(path_file+".rsts", "w+") as f:
+                f.write(json.dumps([rst["audio_metadata"] for rst in self.rsts], ensure_ascii=False, indent=2))
+        #DEBUG-END ---------------------
+    
         for rst in self.rsts:
             if rst.get("audio_metadata", None):
                 for audio_metadata in rst["audio_metadata"]:
                     for metadata in audio_metadata["Metadata"]:
                         metadata["Data"]["Offset"] += off_set
                     audio_metadatas.extend(audio_metadata["Metadata"])
-                off_set += rst["audio_metadata"][-1]["Metadata"][-1]["Data"]["Offset"] + rst["audio_metadata"][-1]["Metadata"][-1]["Data"]["Duration"]
+                off_set = rst["audio_metadata"][-1]["Metadata"][-1]["Data"]["Offset"] + rst["audio_metadata"][-1]["Metadata"][-1]["Data"]["Duration"]
 
         audio_subtile_rsts = self.deal_audio_metadata_for_subtitle(
             audio_metadatas)
@@ -238,6 +243,12 @@ class EdgeTTS(TTS):
             sub_c = self.srt_converter(audio_subtile_rsts)
         with open(path_file, "w+") as f:
             f.write(sub_c)
+        
+        #DEBUG-START debug 模式存储处理后的字幕信息
+        if debug:
+            with open(path_file+".audiometadatas", "w+") as f:
+                f.write(json.dumps(audio_metadatas, ensure_ascii=False, indent=2))
+        #DEBUG-END ---------------------
         return filepath
 
     def srt_converter(self, subtile_aduio_metadatas: list[dict]) -> str:
@@ -248,8 +259,7 @@ class EdgeTTS(TTS):
         """
         tmps = []
         for i, s in enumerate(subtile_aduio_metadatas, start=1):
-            tmp = f"{i}\n{self.mktimestamp(s['aduio_start_timestamp'])}-->{
-                self.mktimestamp(s['aduio_end_timestamp'])}\n{s['sentence']}"
+            tmp = f"{i}\n{self.mktimestamp(s['aduio_start_timestamp'])}-->{self.mktimestamp(s['aduio_end_timestamp'])}\n{s['sentence']}"
             tmps.append(tmp)
 
         return "\n\n".join(tmps)
@@ -263,7 +273,7 @@ class EdgeTTS(TTS):
         for sentence in sentences:
             sentence_start_time = 0
             sentence_end_time = 0
-            word_boundarys = re.findall(r"[\u4E00-\u9FFF]+", sentence)
+            word_boundarys = re.findall(r"[\u4E00-\u9FFF\da-zA-Z]+", sentence)
             word_boundarys = "".join(word_boundarys) if word_boundarys else ""
             sentence_cursor = 0
             while True:

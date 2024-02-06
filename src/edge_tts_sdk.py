@@ -1,12 +1,14 @@
-
+import os
 import httpx
-from .edge_model import (
+from edge_model import (
     VoiceTag,
     VoiceType
 )
-from .edge_tts import EdgeTTS
+from edge_tts import EdgeTTS
+from tts import TtsSDK
 
-class EdgeTtsSDK():
+
+class EdgeTtsSDK(TtsSDK):
 
     def __init__(self, baseurl=""):
         self.baseurl = baseurl
@@ -25,10 +27,19 @@ class EdgeTtsSDK():
         else:
             raise rst.raise_for_status()
 
-    def text_to_speech(self, content:str, voice_type:VoiceType):
-        tts:EdgeTTS = EdgeTTS(content, voice_type)
+    def text_to_speech(self, content: str, voice_type: VoiceType):
+        tts: EdgeTTS = EdgeTTS(content, voice_type)
         tts.execute()
         rsts = tts.get_rsts()
         return rsts
-    
-    def filetext_to_speech(self,)
+
+    def textfile_to_speech_file(self, filepath: str, voice_type: VoiceType, debug=False):
+        out_dirpath = os.path.dirname(os.path.abspath(filepath))
+        out_filename =  os.path.splitext(os.path.basename(filepath))[0]+f"_vt{voice_type.name_md5}"
+        tts = None
+        with open(filepath, "r") as f:
+            tts: EdgeTTS = EdgeTTS(f.read(), voice_type)
+        tts.execute()
+        tts.audio_save(out_filename, out_dirpath)
+        tts.subtitle_save(out_filename, out_dirpath, debug=debug)
+        return 

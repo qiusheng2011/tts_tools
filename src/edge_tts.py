@@ -37,8 +37,7 @@ class EdgeTTS(TTS):
     根据文本分段并发执行转音
 
     属性：
-        m_l_c: int, 文本分段的长度 #TODO 待优化，目前是按照字节粗暴分段，优化目标按照 标点符号进行分段。
-        rst: list, 转音的结果，保证结果顺序与原文的一致性。
+        m_l_c: int, 文本分段的长度 
 
     """
 
@@ -46,7 +45,8 @@ class EdgeTTS(TTS):
         super().__init__(content)
         self.__voice_type = voice_type
         self.m_l_c = max_len_content_per_tts
-        self.__content_part_num = int(len(self.content)/self.m_l_c) + 1
+        self.content_parts = super().partoff_content(self.content, self.m_l_c)
+        self.__content_part_num = len(self.content_parts)
         self.rsts = []
 
     def execute(self):
@@ -63,7 +63,7 @@ class EdgeTTS(TTS):
             tts_wss_tasks = []
             async with asyncio.TaskGroup() as tg, asyncio.timeout(1200):
                 for i in range(self.__content_part_num):
-                    content_part = self.content[i*self.m_l_c:(i+1)*self.m_l_c]
+                    content_part = self.content_parts[i]
                     rsts[i].setdefault("origin_content", content_part)
                     tts_wss_task = tg.create_task(
                         self.deal_by_wss(content_part), name=i)
@@ -108,6 +108,8 @@ class EdgeTTS(TTS):
         return xml_c
 
     def make_voice_type_content_message(self, content: str):
+        """ 生成转录内容的消息
+        """
         message = f"X-RequestId:{uuid.uuid4().hex}\r\n"
         message += f"X-Timestamp:{self.get_x_timestamp()}\r\n"
         message += "Content-Type:application/ssml+xml\r\n"
@@ -116,6 +118,8 @@ class EdgeTTS(TTS):
         return message+"\r\n"
 
     def make_config_message(self):
+        """ 生成语音配置格式消息
+        """
         message = f"X-RequestId:{uuid.uuid4().hex}\r\n"
         message += f"X-Timestamp:{self.get_x_timestamp()}\r\n"
         message += "Content-Type:application/json; charset=utf-8\r\n"
@@ -127,6 +131,8 @@ class EdgeTTS(TTS):
         return message+"\r\n"
 
     def parse_str_response_data(self, response_data: str) -> EdgeWsJsonResponse:
+        """解析str类型的消息
+        """
         data_list = re.split(r"\r\n", response_data)
         return EdgeWsJsonResponse(
             xrequest_id=data_list[0].split(":")[1],
@@ -136,6 +142,8 @@ class EdgeTTS(TTS):
         )
 
     def parse_byte_response_data(self, response_data: bytes):
+        """解析字节流类型的消息
+        """
         header_length = int.from_bytes(response_data[:2], "big")
         if len(response_data) <= (header_length+2):
             return None
@@ -148,7 +156,10 @@ class EdgeTTS(TTS):
             audio_data=response_data[header_length+2:]
         )
 
-    def get_ws_connect_header(self):
+    def make_ws_connect_header(self):
+        """ 生成websocket 标头信息
+        """
+
         headers = {
             "Pragma": "no-cache",
             "Cache-Control": "no-cache",
@@ -161,12 +172,14 @@ class EdgeTTS(TTS):
         return headers
 
     async def deal_by_wss(self, content: str):
+        """ 内容转录成语音
+        """
         service_tag = ""
         audio_metadata = []
         audio_info = {}
         audio_bytes = bytearray()
         try:
-            async with websockets.connect(edge_wss_url.format(connection_id=uuid.uuid4().hex), extra_headers=self.get_ws_connect_header()) as websocket:
+            async with websockets.connect(edge_wss_url.format(connection_id=uuid.uuid4().hex), extra_headers=self.make_ws_connect_header()) as websocket:
 
                 await websocket.send(self.make_config_message())
                 await websocket.send(self.make_voice_type_content_message(content))
@@ -267,7 +280,7 @@ class EdgeTTS(TTS):
     def deal_audio_metadata_for_subtitle(self, audio_metadatas):
         """ 音频元文字处理成元字幕
         """
-        sentences = re.split(r"。｜！|!｜？｜?", self.content)
+        sentences = re.split(r"(。|！|\!|？|\?|\n|\t)", self.content)
         a_m_cursor = 0
         rst = []
         for sentence in sentences:
@@ -276,6 +289,10 @@ class EdgeTTS(TTS):
             word_boundarys = re.findall(r"[\u4E00-\u9FFF\da-zA-Z]+", sentence)
             word_boundarys = "".join(word_boundarys) if word_boundarys else ""
             sentence_cursor = 0
+            if not word_boundarys:
+                if rst and re.match(r"。|！|\!|？|\?",sentence):
+                    rst[-1]["sentence"] += sentence
+                continue
             while True:
                 audio_metadata = audio_metadatas[a_m_cursor]
                 audio_metadata_type = audio_metadata["Type"]

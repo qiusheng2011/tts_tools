@@ -3,6 +3,7 @@ from abc import abstractmethod
 from enum import Enum
 import hashlib
 import math
+import re
 
 class TTSStatus(Enum):
     """转语音的状态
@@ -60,6 +61,24 @@ class TTS:
         minute = math.floor((time_unit / 10**7 / 60) % 60)
         seconds = (time_unit / 10**7) % 60
         return f"{hour:02d}:{minute:02d}:{seconds:06.3f}"
+
+    @staticmethod
+    def partoff_content(content, m_l_c):
+        content_parts = []
+        if len(content) <= m_l_c:
+            return [content]
+        else:
+            tmp_index = 0
+            while (tmp_index+m_l_c) < len(content):
+                step = 0
+                while re.match(r"[\u4E00-\u9FFF]",  content[tmp_index+m_l_c+step]):
+                    step-=1
+                content_parts.append(content[tmp_index:tmp_index+m_l_c+step+1])
+                tmp_index = tmp_index+m_l_c+step+1
+            if content[tmp_index:]:
+                content_parts.append(content[tmp_index:])
+        return content_parts
+
 
 
 

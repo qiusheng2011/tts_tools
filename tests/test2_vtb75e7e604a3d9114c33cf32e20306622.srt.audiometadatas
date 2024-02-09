@@ -1,0 +1,3230 @@
+[
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1000000,
+      "Duration": 14125000,
+      "text": {
+        "Text": "差异优势》",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 14625000,
+      "Duration": 18875000,
+      "text": {
+        "Text": "管理精力的能力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 33500000,
+      "Duration": 58000000,
+      "text": {
+        "Text": "什么是精力：专注力，不分心，百分百聚焦，思考，关注",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 91500000,
+      "Duration": 158875000,
+      "text": {
+        "Text": "管理经理的能力：我的理解,掌控自己的精力分配，再需要百分百的精力（全身心投入）投入的时候，就能百分百投入，让自己的做有意义的事情， 什么是有意义，重要且长期有利的事情",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 250375000,
+      "Duration": 24500000,
+      "text": {
+        "Text": "管理精力大于管理时间",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 274875000,
+      "Duration": 28875000,
+      "text": {
+        "Text": "能力强的人不会坐等事情发生",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 303750000,
+      "Duration": 22875000,
+      "text": {
+        "Text": "精力与专注，目标",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 326625000,
+      "Duration": 26000000,
+      "text": {
+        "Text": "任务： 我应该做的事情。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 352625000,
+      "Duration": 27125000,
+      "text": {
+        "Text": "产出： 我能做好的事情。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 379750000,
+      "Duration": 25875000,
+      "text": {
+        "Text": "回报： 我爱做的事情。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 405625000,
+      "Duration": 85875000,
+      "text": {
+        "Text": "当任务，产出和回报,汇聚到一起在一个事情上的时候，你的精力是最充沛的， 你的热情是最高的。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 491500000,
+      "Duration": 43000000,
+      "text": {
+        "Text": "如何让任务、产出和回报汇聚在一起呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 534500000,
+      "Duration": 55500000,
+      "text": {
+        "Text": "评估自己的任务， 看看哪些是你必须做，哪些是有能力去做。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 590000000,
+      "Duration": 42125000,
+      "text": {
+        "Text": "必须做但不用自己去做的事情，交给别人去做。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 632125000,
+      "Duration": 34500000,
+      "text": {
+        "Text": "不是必须做的事情就从任务中剔除。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 666625000,
+      "Duration": 15250000,
+      "text": {
+        "Text": "精力主题：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 681875000,
+      "Duration": 34875000,
+      "text": {
+        "Text": "1. 充电问题： 什么时候给自己充电？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 716750000,
+      "Duration": 22250000,
+      "text": {
+        "Text": "我怎样才能充满电？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 739000000,
+      "Duration": 82000000,
+      "text": {
+        "Text": "自己的答案，换个说法，你做什么会让你感到非常充足，或者你在做什么的时候会让你感到兴奋。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 821000000,
+      "Duration": 35375000,
+      "text": {
+        "Text": "我的答案： 当我学到新的知识的时候。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 856375000,
+      "Duration": 25250000,
+      "text": {
+        "Text": "当我解决了一些问题的时候。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 881625000,
+      "Duration": 39000000,
+      "text": {
+        "Text": "当我成为了一个在人群中脱颖而出的时候。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 920625000,
+      "Duration": 40625000,
+      "text": {
+        "Text": "2. 消耗性问题： 哪些事情偷走了我的精力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 961250000,
+      "Duration": 70375000,
+      "text": {
+        "Text": "在意别人的行为， 在意别人的评论 ，别人的议论， 别人的误解 ，别人的不理解",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1031625000,
+      "Duration": 49500000,
+      "text": {
+        "Text": "3. 好友圈问题：我的精力增长计划可行度有多高？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1081125000,
+      "Duration": 52125000,
+      "text": {
+        "Text": "哪些事情会给你带来的精力，哪些事情可以作为你的精力来源？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1133250000,
+      "Duration": 58625000,
+      "text": {
+        "Text": "我的理解： 就是环境的重要性， 积极的环境会让你更积极。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1191875000,
+      "Duration": 59875000,
+      "text": {
+        "Text": "这里的积极不是新闻联播式的积极，不是嘴炮的形式主义乐观，",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1252750000,
+      "Duration": 42375000,
+      "text": {
+        "Text": "不是傻逼式的自我欺骗，更不是无脑式的行动。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1294625000,
+      "Duration": 64500000,
+      "text": {
+        "Text": "有一条标准： 就是处在这样的环境里你是变得更好，还是不断的在内耗中。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1359125000,
+      "Duration": 111625000,
+      "text": {
+        "Text": "另外就是,环境也是可以被创造的， 比如你心情的不好的事情，就可以做一些让你快乐的事情， 当你低沉的时候就可以看看励志的视频等等。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1470750000,
+      "Duration": 24375000,
+      "text": {
+        "Text": "提高自己的精力上限值。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1495125000,
+      "Duration": 43375000,
+      "text": {
+        "Text": "4.  百分之百的问题： 我什么时候需要精力满满？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1538500000,
+      "Duration": 183625000,
+      "text": {
+        "Text": "一方面要尽可能增强自己的精力，提高自己的精力，另一方面要管理自己的精力，什么时候需要拿出精力来，什么时候应该把精力收起来， 洞晓一天中哪些的事情应该让你拿出 100% 的精力去做，另外一些尽可能花少部分精力去做。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1722125000,
+      "Duration": 56750000,
+      "text": {
+        "Text": "在需要100%的精力的事情上，是实现你的能力的唯一的方式。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1778875000,
+      "Duration": 114125000,
+      "text": {
+        "Text": "你需要了解每天中的表演时间，不论它是在一天中的什么时候，或者你这一天中有多少次，在这个时间里，你需要用百分之百的精力来展示自己。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1893000000,
+      "Duration": 31000000,
+      "text": {
+        "Text": "这是你实现自己能力的唯一方式。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1924000000,
+      "Duration": 46000000,
+      "text": {
+        "Text": "5.  余地问题：我需要但还做的事情还有多少空间？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 1970000000,
+      "Duration": 35500000,
+      "text": {
+        "Text": "余地：喘气，思考和调整的时间。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2005500000,
+      "Duration": 61625000,
+      "text": {
+        "Text": "如果没有经常性的恢复期，我们在心理上就无法长期保持积极的情绪。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2067125000,
+      "Duration": 86750000,
+      "text": {
+        "Text": "面对着无尽的需求和意想不到的挑战，人们通常会陷入负面情绪中，也就是或战或逃的模式之中。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2153875000,
+      "Duration": 31125000,
+      "text": {
+        "Text": "这样的情况一天中会出现多次。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2185000000,
+      "Duration": 42125000,
+      "text": {
+        "Text": "他们变得焦躁不安、心绪不宁、缺乏安全感。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2227125000,
+      "Duration": 52125000,
+      "text": {
+        "Text": "这种精神状态会消耗他们的精力，导致人际关系紧张。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2279250000,
+      "Duration": 64250000,
+      "text": {
+        "Text": "这种或战或逃的思维模式还会使人无法清楚、合理地思考和反思。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2343500000,
+      "Duration": 82375000,
+      "text": {
+        "Text": "如果执行人员能够明白是什么事情引起了自己的负面情绪，那他们就可以更好地控制自己的反应。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2425875000,
+      "Duration": 95500000,
+      "text": {
+        "Text": "个人理解,就是存在那种步子迈太大容易扯着蛋，这种情况就要给自己的喘息消化，反胃咀嚼的机会。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2521375000,
+      "Duration": 35750000,
+      "text": {
+        "Text": "快永远是不是目的，有好的结果才是。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2557125000,
+      "Duration": 19375000,
+      "text": {
+        "Text": "精力终极原则：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2576500000,
+      "Duration": 59625000,
+      "text": {
+        "Text": "密切关注哪些能增加或减少你精力的事情，调整自己的做法，",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2637125000,
+      "Duration": 82000000,
+      "text": {
+        "Text": "尽可能少做那些消耗你精力的事情，努力做那些能增加你精力的事情，把精力多放在重要的事情上。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2718625000,
+      "Duration": 29125000,
+      "text": {
+        "Text": "时常咋精力方面多问问自己：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2747750000,
+      "Duration": 47375000,
+      "text": {
+        "Text": "1. 哪些活动、人、任务和地点消耗了你的精力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2795125000,
+      "Duration": 47250000,
+      "text": {
+        "Text": "2. 哪些活动、人 、任务和地点增加了你的精力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2842375000,
+      "Duration": 53375000,
+      "text": {
+        "Text": "3. 在你生活的哪些方面， 你的精力没有得以最大化利用？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2895750000,
+      "Duration": 32625000,
+      "text": {
+        "Text": "情绪能力-管理自己的情绪的能力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2928375000,
+      "Duration": 28125000,
+      "text": {
+        "Text": "问题1 ： 什么是情绪能力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 2956500000,
+      "Duration": 104250000,
+      "text": {
+        "Text": "面对挫折，困难，困境，逆境，失败，成功，消沉，毫无斗志，抑郁，压力，痛苦的情境的处理能力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3060750000,
+      "Duration": 19875000,
+      "text": {
+        "Text": "问题2  如何提升？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3080625000,
+      "Duration": 42625000,
+      "text": {
+        "Text": "1.  内心强大的人会积极主动地处理自己的情绪",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3123250000,
+      "Duration": 62125000,
+      "text": {
+        "Text": "2.  内心强大的人不会浪费时间自怜自悯我们要无视生活中的很多烦恼。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3185375000,
+      "Duration": 48500000,
+      "text": {
+        "Text": "但这不意味着我们要压制、忽略或者否认痛苦。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3233875000,
+      "Duration": 32125000,
+      "text": {
+        "Text": "强烈的痛苦需要我们迎难而上。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3266000000,
+      "Duration": 65500000,
+      "text": {
+        "Text": "具备适应能留的一个标志是学会分辨哪些痛苦值得我们关注，哪些不需要。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3331500000,
+      "Duration": 63000000,
+      "text": {
+        "Text": "关注所有的痛苦并不能让我们具备适应能力，那样往往只会导致抱怨。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3394500000,
+      "Duration": 32750000,
+      "text": {
+        "Text": "面对第一步就是接受糟糕的落点。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3427250000,
+      "Duration": 62500000,
+      "text": {
+        "Text": "不让糟糕的落点毁了自己的斗志，接受的下一步就是想办法行动应对。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3489750000,
+      "Duration": 61125000,
+      "text": {
+        "Text": "接受平昱的离开，接受糟糕的家庭和父母，接受自己的被裁员的结果。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3550875000,
+      "Duration": 48750000,
+      "text": {
+        "Text": "3.  内心强大的人不会允许别人控制,自己的人际关系",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3599625000,
+      "Duration": 8875000,
+      "text": {
+        "Text": "1.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3608500000,
+      "Duration": 109625000,
+      "text": {
+        "Text": "4.  内心强大的人不会在不可控的事情上浪费精力将自身掌握的事情控制好，不再自身不可控的事情上浪费时间，是生活中重要的一课。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3718125000,
+      "Duration": 42250000,
+      "text": {
+        "Text": "你必须明白生活中的现实和问题之间的区别。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3760375000,
+      "Duration": 68000000,
+      "text": {
+        "Text": "生活中的现实是你无法控制或解决的，而生活中问题是你可以解决的。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3828375000,
+      "Duration": 12375000,
+      "text": {
+        "Text": "5.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3841750000,
+      "Duration": 65625000,
+      "text": {
+        "Text": "内心强大的人不会一直犯同样的错误同样的行为肯定会产生同样的结果。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3906875000,
+      "Duration": 30375000,
+      "text": {
+        "Text": "为什么一直犯同样的错误呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3937250000,
+      "Duration": 59500000,
+      "text": {
+        "Text": "因为没有停下来去思考为什么努力没有得到好的结果，然后改变一下路线。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 3996750000,
+      "Duration": 80125000,
+      "text": {
+        "Text": "面对错误，直到从中吸取了教训，这件事情才算过去思考是将经验变成真知灼见的法宝。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4076875000,
+      "Duration": 124875000,
+      "text": {
+        "Text": "如何做： 每日自我回顾， 自我思考（审视自己，看看自己需要做出什么样的改变） 自我对话， 自我引导（给自己一个正确的方向）， 自我行动？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4201750000,
+      "Duration": 102250000,
+      "text": {
+        "Text": "6.  内心强大的人不允许起起落落控制生活昨日的成功不会带来明日的成功我的理解： 失败是经验，成功是信心。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4304000000,
+      "Duration": 48625000,
+      "text": {
+        "Text": "长时间的成功才是真正的成功而不是一时的成功。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4352625000,
+      "Duration": 53750000,
+      "text": {
+        "Text": "7.  内心强大的人会理解和感谢，并通过努力不断成长。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4406375000,
+      "Duration": 29500000,
+      "text": {
+        "Text": "旧情绪和新情绪不能共存。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4435875000,
+      "Duration": 28500000,
+      "text": {
+        "Text": "我们必须不断擦写才能成长。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4464375000,
+      "Duration": 28250000,
+      "text": {
+        "Text": "关于情绪能力时常问自己：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4492625000,
+      "Duration": 56375000,
+      "text": {
+        "Text": "1. 以前，你认为自己是一个内省强大的人还是一个情感脆弱的人？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4549000000,
+      "Duration": 11875000,
+      "text": {
+        "Text": "为什么？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4560875000,
+      "Duration": 89875000,
+      "text": {
+        "Text": "以前我是一个情感脆弱的人， 面对各种困境，往往我深陷其中不能自拔，并在不断犯错中,重蹈覆辙。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4650750000,
+      "Duration": 67375000,
+      "text": {
+        "Text": "2.  文中提到内心强大的人具备的七大惯例，你认为自己哪一点做的最好？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4718125000,
+      "Duration": 27125000,
+      "text": {
+        "Text": "我认为自己哪一点都做的不好。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4745250000,
+      "Duration": 50750000,
+      "text": {
+        "Text": "3.  内心强大的人的七大惯例，其中哪一项对你来说最难？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4796000000,
+      "Duration": 11875000,
+      "text": {
+        "Text": "为什么？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4807875000,
+      "Duration": 39000000,
+      "text": {
+        "Text": "你打算做些什么让自己在那一方面有所提高？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4846875000,
+      "Duration": 129500000,
+      "text": {
+        "Text": "内心强大人不会浪费时间自怜自悯,上最难，  处理情绪的第一步永远是接受，而我则是不断在逃避，只有接受了，之后才是做出改变的意愿和行动。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 4976375000,
+      "Duration": 87500000,
+      "text": {
+        "Text": "这个接受不是,不是逃避而是真真切切的面对,事实，发生的一切，去思考去面对，然后想出路。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5063875000,
+      "Duration": 67875000,
+      "text": {
+        "Text": "我打算面对，直面，尽管很痛苦但是直面痛苦才是处理情绪的第一步。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5132750000,
+      "Duration": 33125000,
+      "text": {
+        "Text": "思考（思维）能力==？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5165375000,
+      "Duration": 15000000,
+      "text": {
+        "Text": "认知能力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5180375000,
+      "Duration": 89500000,
+      "text": {
+        "Text": "我的理解： 思考能力就是,有自己的想法并跟踪自己的想法，并且不断完善，落地开花结果的能力。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5269875000,
+      "Duration": 18250000,
+      "text": {
+        "Text": "这其中有技巧。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5288125000,
+      "Duration": 37625000,
+      "text": {
+        "Text": "如何跟踪，如何完善，付出行动等",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5325750000,
+      "Duration": 40250000,
+      "text": {
+        "Text": "成功人士与非成功人士的思维有所不同",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5366000000,
+      "Duration": 24375000,
+      "text": {
+        "Text": "1.  万事始于一个想法",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5390375000,
+      "Duration": 88375000,
+      "text": {
+        "Text": "2. 我们思考什么决定我们成为什么人，我们是什么人决定我们做什么事情（人的行为是思想的最佳诠释者）",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5478750000,
+      "Duration": 54375000,
+      "text": {
+        "Text": "3. 我们的想法决定我们命运，我们的命运将决定我们的遗产。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5533125000,
+      "Duration": 58125000,
+      "text": {
+        "Text": "我想去美国的想法，促使我去行动，并因此改变了我的人生轨迹。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5591250000,
+      "Duration": 36500000,
+      "text": {
+        "Text": "4. 身居高位之人与他人想法大不同。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5627750000,
+      "Duration": 75625000,
+      "text": {
+        "Text": "没有什么能像狭隘的思考那样限制成功，也没什么能像无边的想象那样扩展可能性",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5703375000,
+      "Duration": 27750000,
+      "text": {
+        "Text": "5. 我们可以改变我们的思考方式",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5731125000,
+      "Duration": 15625000,
+      "text": {
+        "Text": "什么是想法？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5746750000,
+      "Duration": 41750000,
+      "text": {
+        "Text": "看法，认知，理解，因果利弊的判断",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5788500000,
+      "Duration": 68000000,
+      "text": {
+        "Text": "人倾向于表里如一，如果一个人所想和他实际想做的差距很大，会引起不适。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5856500000,
+      "Duration": 41000000,
+      "text": {
+        "Text": "如果不能做到表里如一,的人容易精神分裂。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5897500000,
+      "Duration": 26750000,
+      "text": {
+        "Text": "如何提升你的思考能力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 5924250000,
+      "Duration": 134375000,
+      "text": {
+        "Text": "1. 关注自己的想法并不断挖掘，想办法让想法最大化的实现，这个过程是一个正向循环，思考行动反馈思考修正，再思考在行动再反馈再思考再修正。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6058625000,
+      "Duration": 58875000,
+      "text": {
+        "Text": "判断一个想法会不会带来价值，给自己的价值 ，给别人的价值",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6117500000,
+      "Duration": 59875000,
+      "text": {
+        "Text": "2. 写下想法-明确自己的思想学习记录的过程就是学习思考的过程。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6177375000,
+      "Duration": 69750000,
+      "text": {
+        "Text": "我的理解是,要记录的你的想法，用你自己的语言和体系，而不是无脑的抄写。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6247125000,
+      "Duration": 108875000,
+      "text": {
+        "Text": "这个记录不限于手写，敲字，或者语音记录，这些笔记行为的过程本身就是一种思考（大脑神经的逻辑（因果利弊）联结刺激）",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6356000000,
+      "Duration": 75875000,
+      "text": {
+        "Text": "3.  随时记录保存你的想法想法会一闪而过，随时记录，首要目标不要丢失这个想法。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6431875000,
+      "Duration": 39250000,
+      "text": {
+        "Text": "为自己的想法建立场所，建立栖息之地。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6471125000,
+      "Duration": 23750000,
+      "text": {
+        "Text": "4.  反思你的想法",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6495875000,
+      "Duration": 71375000,
+      "text": {
+        "Text": "回顾评估你的想法思考就是弄清楚因果，权衡利弊，并做出选择，付出行动",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6566750000,
+      "Duration": 147375000,
+      "text": {
+        "Text": "5. 用语言描述想法-表达你的思想学会表达出自己的想法，不仅仅对自己有帮助（表达会让想法的思考更加清晰明了）也能更好让想法暴露给能提供帮助的人，以便帮助想法的发展。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6714125000,
+      "Duration": 41125000,
+      "text": {
+        "Text": "讨论可以表达你的内心讨论可以扩展你的想法",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6755250000,
+      "Duration": 101750000,
+      "text": {
+        "Text": "6. 将想法摆在桌面上-分享思想把你认为足够好的想法拿出来,分享给善于思考的人,才会不断产生更好的想法的火花。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6857000000,
+      "Duration": 48500000,
+      "text": {
+        "Text": "你不能对牛弹琴，不能对智力缺陷的人高谈阔论。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6905500000,
+      "Duration": 47875000,
+      "text": {
+        "Text": "核心在于足够好的想法和,善于思考的分享对象",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 6953375000,
+      "Duration": 79000000,
+      "text": {
+        "Text": "7. 分享想法-你的思想是骡子是马拉出来溜溜一个未经挑战的观点经不起现实世界的检验。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7032375000,
+      "Duration": 58250000,
+      "text": {
+        "Text": "拉出来检验才能看清想法的位置，才能更好的获得更好的反馈。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7090625000,
+      "Duration": 19375000,
+      "text": {
+        "Text": "在失败中前进",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7110000000,
+      "Duration": 134375000,
+      "text": {
+        "Text": "8.  质疑你的想法--扩展你的想法我从实践中学习到了什么，这个想法是不是依然可行，有没有更好的想法或者解决方案前期提出的问题越多，后期需要解决的问题就越少。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7244375000,
+      "Duration": 140750000,
+      "text": {
+        "Text": "9.  拥抱想法--拥有自己的想法自己的想法就是自己的，别人抢不走，自己的想法特征是自己明白其中因果利弊，别人的想法的意思是,你还不能完全理解其中的因果利弊。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7385125000,
+      "Duration": 145625000,
+      "text": {
+        "Text": "相信一个观点是好的，是远远不够， 好的观点需要变成自己的想法，这不是自然而然的发生，这需要你有意识，有思考 ，有理解， 这个过程本生也是在思考是思考的一个过程。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7530750000,
+      "Duration": 79125000,
+      "text": {
+        "Text": "10.  发起你的想法--实施思想把想法和思想进行实施和实践是检验思想和想法的试金石。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7609875000,
+      "Duration": 88125000,
+      "text": {
+        "Text": "记录想法和思考-回顾反思-分享-质疑-变成自己的想法-付出行动-反馈-思考,再一次循环",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7698000000,
+      "Duration": 127750000,
+      "text": {
+        "Text": "11.  让想法落地--让你想法转起来我的理解,让想法落地开出结果来，无论是好还是坏，要有结果，不好的话就要调整行动,好的话带来信心和反馈。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7825750000,
+      "Duration": 27500000,
+      "text": {
+        "Text": "12.  升级你的想法",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7854250000,
+      "Duration": 69500000,
+      "text": {
+        "Text": "让你的思想变得成熟一时的成功不是成功，长久持续的成功才是真正的成功。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7923250000,
+      "Duration": 59250000,
+      "text": {
+        "Text": "想法是成长的养料，而要不断的成长，就需要不断的优化想法。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7982500000,
+      "Duration": 16125000,
+      "text": {
+        "Text": "终极原则：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 7998625000,
+      "Duration": 80375000,
+      "text": {
+        "Text": "比起聪明的智商和工作努力，高效的思考能力和可持续的思考能力会给你带来更高的回报。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8079000000,
+      "Duration": 68625000,
+      "text": {
+        "Text": "优秀的思考者和一般的思考者的差异是巨大的，就如同冰块和冰山的差异。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8147625000,
+      "Duration": 35375000,
+      "text": {
+        "Text": "1．你有捕捉自己想法的一套系统吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8183000000,
+      "Duration": 32250000,
+      "text": {
+        "Text": "如果有，这个系统效果如何？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8215250000,
+      "Duration": 58125000,
+      "text": {
+        "Text": "如果没有，你能做些什么记录下你的想法，而不至于失去它们呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8273375000,
+      "Duration": 52000000,
+      "text": {
+        "Text": "2．当你把想法摆到桌面上，谁是能帮你提升想法的那个人？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8325375000,
+      "Duration": 36000000,
+      "text": {
+        "Text": "怎样才能让他们给予你更多的帮助呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8361375000,
+      "Duration": 33375000,
+      "text": {
+        "Text": "3．你更偏向于行动还是思想呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8394750000,
+      "Duration": 36875000,
+      "text": {
+        "Text": "如果你两者都具备，又会发生什么呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8431625000,
+      "Duration": 14250000,
+      "text": {
+        "Text": "人际能力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8445875000,
+      "Duration": 37500000,
+      "text": {
+        "Text": "人际关系就是让自己变得更好，利他。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8483375000,
+      "Duration": 46250000,
+      "text": {
+        "Text": "我目前应该没有这方面的烦恼，因为我没有人际关系。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8529625000,
+      "Duration": 24375000,
+      "text": {
+        "Text": "至少目前不是第一位的。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8554000000,
+      "Duration": 70125000,
+      "text": {
+        "Text": "你想和什么样的人,你想和你值得学习的人交往就应该有目的性，主动去接近那些人。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8624125000,
+      "Duration": 73375000,
+      "text": {
+        "Text": "人际关系,是指,那些真正对你产生正向的影响的人， 作为回报你应该付出更多。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8697500000,
+      "Duration": 87250000,
+      "text": {
+        "Text": "说的再直白一点，你应该对对你有用的人更好一点，更不图回报，因为这个人本身对你的影响就是积极的。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8784750000,
+      "Duration": 53750000,
+      "text": {
+        "Text": "对于消极的影响的人,最好的最低的代价就是有选择的远离。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8838500000,
+      "Duration": 47250000,
+      "text": {
+        "Text": "和靠谱的人交朋友，并且自己的也要成为靠谱的人。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8885750000,
+      "Duration": 30125000,
+      "text": {
+        "Text": "无条件支持那些真正的朋友。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8915875000,
+      "Duration": 36125000,
+      "text": {
+        "Text": "创造力 （精辟之说：拥抱可能性）",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8952000000,
+      "Duration": 18000000,
+      "text": {
+        "Text": "什么是创造力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 8970000000,
+      "Duration": 94125000,
+      "text": {
+        "Text": "我的理解： 拥抱无限的可能，任何事物的可能性是你的信仰，聚焦思考，涌现想法并且不断尝试，实践",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9064125000,
+      "Duration": 25125000,
+      "text": {
+        "Text": "一个总是提供选项的人",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9089250000,
+      "Duration": 22250000,
+      "text": {
+        "Text": "富有创造力的方法",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9111500000,
+      "Duration": 98000000,
+      "text": {
+        "Text": "永远相信可能性，相信问题会有答案，相信困难可以克服王健林做到了，他开除了那些面对困难就说不可能的职员。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9209500000,
+      "Duration": 90250000,
+      "text": {
+        "Text": "这种相信不是无脑相信你一定会成功，而是相信这件事即使有困难，存在一条可能的路径能成功，",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9300750000,
+      "Duration": 55250000,
+      "text": {
+        "Text": "而你要做的就是不断努力寻找这种可能性并且不断尝试实践。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9355500000,
+      "Duration": 27000000,
+      "text": {
+        "Text": "创造力是一种思维模式。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9382500000,
+      "Duration": 60500000,
+      "text": {
+        "Text": "你要相信大男和解决办法就在那里，只要你愿意不断努力找到它们。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9443000000,
+      "Duration": 72125000,
+      "text": {
+        "Text": "我相信答案不止一个同样的问题和事情，给出 3个以上解决方案会让你更有创造力。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9515125000,
+      "Duration": 53875000,
+      "text": {
+        "Text": "我明白，问题有助于我更有创造力,时常问自己：    1.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9569000000,
+      "Duration": 28250000,
+      "text": {
+        "Text": "我们如何让事情变得更好    2.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9597250000,
+      "Duration": 31625000,
+      "text": {
+        "Text": "我怎样才能让自己变得更强大    3.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9628875000,
+      "Duration": 39375000,
+      "text": {
+        "Text": "我怎样才能让自己的团队变得更强大    4.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9668250000,
+      "Duration": 25250000,
+      "text": {
+        "Text": "在讨论中有正确的人吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9693500000,
+      "Duration": 175500000,
+      "text": {
+        "Text": "创业团队最需要的人是同时具有两种特点的人,有梦想并愿意行动的人,和在探索答案的过程中能够坚持下来的人创造能力在于,事物之间的建立联系优秀的合伙人： 哪些能够推动业务部门前行且成功实施的人",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9869000000,
+      "Duration": 121125000,
+      "text": {
+        "Text": "对于不成熟的想法我感到很自在3E 模式方法：一个想法呈现给正确的人 + 来自不同视角的表达 = 扩展出超出个人能力的想法不成熟想法的好处： 1.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 9990125000,
+      "Duration": 33500000,
+      "text": {
+        "Text": "不成熟的想法增加了成功的概率 2.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10023625000,
+      "Duration": 54500000,
+      "text": {
+        "Text": "因为不成熟想法,实践创造性想法，于是我们有了更多实践 3.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10078125000,
+      "Duration": 74625000,
+      "text": {
+        "Text": "很多不成熟的想法有成功的也有失败的， 如果你没有一点想法，肯定不会有成功的机会，？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10152750000,
+      "Duration": 80125000,
+      "text": {
+        "Text": "不断的尝试，其中又失败的， 这并不比尝试了却失败了更糟糕，因为这给你了不断尝试的信心？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10232875000,
+      "Duration": 49250000,
+      "text": {
+        "Text": "有创造力的人会失败，最有创造力的人会经常失败。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10282125000,
+      "Duration": 85000000,
+      "text": {
+        "Text": "员工是否有创造力唯一的因素在于,员工是否感受到自己有权限，有空间发挥，有试错的机会。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10367125000,
+      "Duration": 45250000,
+      "text": {
+        "Text": "思考,时刻不停歇的流水线工人有创造力吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10412375000,
+      "Duration": 136500000,
+      "text": {
+        "Text": "我能自如地放下昨天我拥有的,核心在于不断革新，不断进化才能保持住创新， 理解这个世界是发展的,运动，这个世界上个根本不存在死鱼,因为死鱼也会被分解。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10548875000,
+      "Duration": 17500000,
+      "text": {
+        "Text": "没有一成不变。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10566375000,
+      "Duration": 71625000,
+      "text": {
+        "Text": "我放弃的自己的工作机会，冒着风险离开，很痛苦但是止损，因为我知道",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10639000000,
+      "Duration": 23375000,
+      "text": {
+        "Text": "呆下去对我没啥好处。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10661875000,
+      "Duration": 100250000,
+      "text": {
+        "Text": "当更好的事物来临 ，更有创造性的事物到来，面临,旧爱，你该如何选择，你愿意放手旧爱，欢迎新的到来的吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10762125000,
+      "Duration": 70500000,
+      "text": {
+        "Text": "如果欢迎那就意味着进化，有这个心态你才能保持你的创造力，拥抱无限可能。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10832625000,
+      "Duration": 27750000,
+      "text": {
+        "Text": "请有创造能力的人帮助我",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10860375000,
+      "Duration": 47000000,
+      "text": {
+        "Text": "留给自己创造性思考的时间给自己规划静思的时间。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10907375000,
+      "Duration": 27500000,
+      "text": {
+        "Text": "关于创造力时常问自己：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10934875000,
+      "Duration": 63625000,
+      "text": {
+        "Text": "1.  当说的问题、挑战、困难、障碍时，你相信,总有解决办法吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 10998500000,
+      "Duration": 48125000,
+      "text": {
+        "Text": "2.  你发现放下过去的成功和方法是困难还是容易？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11046625000,
+      "Duration": 11875000,
+      "text": {
+        "Text": "为什么？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11058500000,
+      "Duration": 34875000,
+      "text": {
+        "Text": "以后你如何借助更强的信念放下过去？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11093375000,
+      "Duration": 60000000,
+      "text": {
+        "Text": "3. “你更擅长把有创造力的人聚集起来集思广益，还是独自静思？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11153375000,
+      "Duration": 40750000,
+      "text": {
+        "Text": "你可以做些什么来改善你目前做得不够好的方面？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11194125000,
+      "Duration": 10375000,
+      "text": {
+        "Text": "4.",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11204500000,
+      "Duration": 13625000,
+      "text": {
+        "Text": "生产力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11218125000,
+      "Duration": 17625000,
+      "text": {
+        "Text": "什么是生产力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11235750000,
+      "Duration": 20875000,
+      "text": {
+        "Text": "实现结果的能力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11256625000,
+      "Duration": 70875000,
+      "text": {
+        "Text": "一切值得的都是在走上坡路问题在于： 我们愿意为走上坡路的生活而努力吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11327500000,
+      "Duration": 17125000,
+      "text": {
+        "Text": "什么是上坡路",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11344625000,
+      "Duration": 14125000,
+      "text": {
+        "Text": "充满干劲",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11358750000,
+      "Duration": 13500000,
+      "text": {
+        "Text": "充满希望",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11372250000,
+      "Duration": 14625000,
+      "text": {
+        "Text": "充满信心",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11386875000,
+      "Duration": 16125000,
+      "text": {
+        "Text": "无惧困难",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11403000000,
+      "Duration": 15750000,
+      "text": {
+        "Text": "认为有价值",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11418750000,
+      "Duration": 12125000,
+      "text": {
+        "Text": "有动力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11430875000,
+      "Duration": 16875000,
+      "text": {
+        "Text": "什么是下坡路",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11447750000,
+      "Duration": 10875000,
+      "text": {
+        "Text": "沮丧",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11458625000,
+      "Duration": 9875000,
+      "text": {
+        "Text": "忧虑",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11468500000,
+      "Duration": 11250000,
+      "text": {
+        "Text": "内耗",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11479750000,
+      "Duration": 13500000,
+      "text": {
+        "Text": "无意义",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11493250000,
+      "Duration": 14125000,
+      "text": {
+        "Text": "毫无希望",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11507375000,
+      "Duration": 24750000,
+      "text": {
+        "Text": "高效的前提,有目标,",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11532125000,
+      "Duration": 25250000,
+      "text": {
+        "Text": "实现目标的 9 个原则：",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11557375000,
+      "Duration": 76125000,
+      "text": {
+        "Text": "1. 设想完美的结果； 【预想成功的样子】\t\t明确目标的结果，产生的影响，越是细节越好。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11633500000,
+      "Duration": 91000000,
+      "text": {
+        "Text": "比如你背完雅思单词，最后的结果就是你可以通过雅思考试，你可以去美国人，你可以和美国人正常的交流。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11724500000,
+      "Duration": 91875000,
+      "text": {
+        "Text": "你越精通 python 精通程序设计，精通计算机基础知识,结果就是你能通过大公司面试，拿到大公司的 offer",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11816375000,
+      "Duration": 131125000,
+      "text": {
+        "Text": "2.  在明确如何实现远景之前开始努力工作 【保持行动】接受我已经知道的一切，让它们变成我做事的理由这世界上没有一鸣惊人，只有不断小成功筑起的高楼大厦。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 11947500000,
+      "Duration": 56500000,
+      "text": {
+        "Text": "高效的心态，无论你有什么或者没有什么,你都渴望开始，",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12005000000,
+      "Duration": 32500000,
+      "text": {
+        "Text": "哪怕你对如何实现目标一无所知。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12037000000,
+      "Duration": 42750000,
+      "text": {
+        "Text": "努力的工作的每一步，都会离成功越来越近",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12079750000,
+      "Duration": 118250000,
+      "text": {
+        "Text": "3.  迅速失败，率先失败，经常失败 【重视不同类型的失败】这里面的玄机, 不同的失败，带来了不同的经验，不要再同一个失败上犯错。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12198000000,
+      "Duration": 74125000,
+      "text": {
+        "Text": "不同经验的累积，在不同失败的反思改进,修正,优化中，离成功越来越近。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12272125000,
+      "Duration": 27250000,
+      "text": {
+        "Text": "案例： 马斯克的 spacex",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12299375000,
+      "Duration": 121250000,
+      "text": {
+        "Text": "4. 保持比别人更专注更持久 【在深度和宽度上专注 】无论做事的专注度，还是对事业的专注度，越好的专注度让行动和努力都变的更高效。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12420625000,
+      "Duration": 17875000,
+      "text": {
+        "Text": "不要浅尝辄止。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12438500000,
+      "Duration": 140125000,
+      "text": {
+        "Text": "5. 盘点你的技能和资源【知己突破】盘点在于知晓自己的能力和水平，时常评估做一个温控器，知道自己的什么时候需要成长,和突破，而不是随波逐流的停滞不前。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12578625000,
+      "Duration": 25625000,
+      "text": {
+        "Text": "6. 停止做你不擅长的事  ？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12604250000,
+      "Duration": 67500000,
+      "text": {
+        "Text": "这个我不理解，为什么， 你总是在做你擅长的事情，那还怎么进步和成长呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12671750000,
+      "Duration": 15125000,
+      "text": {
+        "Text": "这很矛盾。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12686875000,
+      "Duration": 55750000,
+      "text": {
+        "Text": "你不擅长读文字书，难道这辈子就不读文字书只看视频？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12742625000,
+      "Duration": 58500000,
+      "text": {
+        "Text": "想方设法集中你的时间和注意力，从计划中剔除那些回报不高的东西。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12801125000,
+      "Duration": 59750000,
+      "text": {
+        "Text": "7. 每天调整你的团队 【团队大于个人】我们要的不是员工而是团队。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12860875000,
+      "Duration": 124000000,
+      "text": {
+        "Text": "8. 每天做决定，让自己和团队不断前进 【勇于做出决定，无论对错】不要在意的对错，在于这个过程对目标和结果有没有帮助无论对错勇敢的做出决定。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 12984875000,
+      "Duration": 77375000,
+      "text": {
+        "Text": "9. 不断再次评估可以改进之处--【持续复盘】今天的行动是为了创造更加美好的明天",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13062250000,
+      "Duration": 22375000,
+      "text": {
+        "Text": "关于生产能力的问题",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13084625000,
+      "Duration": 112375000,
+      "text": {
+        "Text": "1．你更倾向于成为一名研究过去的历史学家、一名观察和评论现在的记者，还是一位在今天采取行动、好改善明天的状况的未来主义者？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13197000000,
+      "Duration": 51375000,
+      "text": {
+        "Text": "未来离我们越来越近，你会把注意力更多集中在哪些方面？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13248375000,
+      "Duration": 56125000,
+      "text": {
+        "Text": "2．以保罗的故事作为灵感启发，你会如何描述对未来的憧憬？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13304500000,
+      "Duration": 20625000,
+      "text": {
+        "Text": "你该做些什么？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13326125000,
+      "Duration": 24625000,
+      "text": {
+        "Text": "尽可能详细地描述出来。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13350250000,
+      "Duration": 62000000,
+      "text": {
+        "Text": "3．你现在有哪些让自己走下坡路的习惯，令你离理想的未来越来越远？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13412250000,
+      "Duration": 50500000,
+      "text": {
+        "Text": "你必须培养哪些走上坡路的习惯，取代毫无成效的习惯？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13462750000,
+      "Duration": 14500000,
+      "text": {
+        "Text": "领导能力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13477250000,
+      "Duration": 47375000,
+      "text": {
+        "Text": "领导力的前提的组织有分工，有专业度，有团队。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13524625000,
+      "Duration": 24000000,
+      "text": {
+        "Text": "如何实现预期的改变",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13548625000,
+      "Duration": 24000000,
+      "text": {
+        "Text": "所有的核心都在人上",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13572625000,
+      "Duration": 39875000,
+      "text": {
+        "Text": "协助那些愿意改变的人,成为更好的人。",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13612500000,
+      "Duration": 25625000,
+      "text": {
+        "Text": "问自己的领导能力的问题",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13638125000,
+      "Duration": 40375000,
+      "text": {
+        "Text": "1.  你花了多少时间和精力来提升你的领导能力？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13678500000,
+      "Duration": 40250000,
+      "text": {
+        "Text": "到现在为止，你一直再考虑什么重要事项？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13718750000,
+      "Duration": 39250000,
+      "text": {
+        "Text": "如果你愿意是它更重要的，你打算怎么做？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13758000000,
+      "Duration": 50875000,
+      "text": {
+        "Text": "2.  你在与人沟通和要求别人改变的是抢上做的怎么样？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13808875000,
+      "Duration": 36625000,
+      "text": {
+        "Text": "你在其中一方面做的比另一方面更好吗？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13845500000,
+      "Duration": 39500000,
+      "text": {
+        "Text": "对于做的不太好的一面，你会怎样改进呢？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13885000000,
+      "Duration": 24750000,
+      "text": {
+        "Text": "3.  你应该做出什么改变？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13909750000,
+      "Duration": 58250000,
+      "text": {
+        "Text": "特别是在你的领导力，你能够采取什么具体措施让别人胜过自己？",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13968000000,
+      "Duration": 24625000,
+      "text": {
+        "Text": "基础能力,个人总结",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 13992625000,
+      "Duration": 196750000,
+      "text": {
+        "Text": "精力能力、情绪能力、 人际交往能力、思考力、创新力、、生产力、领导力,这 7 个基础能力，我都需要提高 ，我需要一步一步来,先挑最最重要的几个能力来不断提高，认知，行动反馈，调整 ，再认知,在行动,再反馈,再调整,",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 14189375000,
+      "Duration": 66750000,
+      "text": {
+        "Text": "当前对我来说最需要提高的 3 个能力是： 精力能力 ，情绪能力，生产力",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 14256125000,
+      "Duration": 29750000,
+      "text": {
+        "Text": "下一个最重要的是,思考力,",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 14285875000,
+      "Duration": 23875000,
+      "text": {
+        "Text": "再下一个,创新力,",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  },
+  {
+    "Type": "SentenceBoundary",
+    "Data": {
+      "Offset": 14309750000,
+      "Duration": 32625000,
+      "text": {
+        "Text": "最后,人际交往能力和领导",
+        "Length": 0,
+        "BoundaryType": "SentenceBoundary"
+      }
+    }
+  }
+]

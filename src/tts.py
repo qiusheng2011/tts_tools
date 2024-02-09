@@ -29,6 +29,10 @@ class TTS:
         """执行
         """
         pass
+    
+    @abstractmethod
+    def execute_process(self) -> float:
+        pass
 
     @abstractmethod
     def get_rsts(self):
@@ -57,9 +61,12 @@ class TTS:
         Returns:
             str: The timecode of the subtitle.
         """
-        hour = math.floor(time_unit / 10**7 / 3600)
-        minute = math.floor((time_unit / 10**7 / 60) % 60)
-        seconds = (time_unit / 10**7) % 60
+        try:
+            hour = math.floor(time_unit / 10**7 / 3600)
+            minute = math.floor((time_unit / 10**7 / 60) % 60)
+            seconds = (time_unit / 10**7) % 60
+        except Exception as ex:
+            raise ex
         return f"{hour:02d}:{minute:02d}:{seconds:06.3f}"
 
     @staticmethod
@@ -93,3 +100,4 @@ class TtsSDK():
 
     def textfile_to_speech_file(self, filepath, voice_type, debug=False):
         pass
+

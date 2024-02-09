@@ -52,11 +52,10 @@ def test_edge_tts_deal_audio_metadata_for_subtitle(edge_tts: EdgeTTS ):
     assert rsts != None
 
 
-@pytest.fixture
-def edge_tts_long():
-
+#@pytest.fixture
+def edge_tts_long(content_file):
     content = ""
-    with open("./tests/test.txt", "r") as f:
+    with open(content_file, "r") as f:
         content = f.read()
     voice_type = VoiceType.model_validate({
         "Name": "Microsoft Server Speech Text to Speech Voice (zh-CN, XiaoyiNeural)",
@@ -78,11 +77,15 @@ def edge_tts_long():
     })
     return EdgeTTS(content, voice_type, max_len_content_per_tts=int(len(content)/2)+1)
 
-def test_edge_tts_deal_audio_metadata_for_subtitle_for_long(edge_tts_long: EdgeTTS ):
+@pytest.mark.parametrize("edge_tts,audiometadatas_file",[
+    (edge_tts_long("./tests/test.txt"),"/audiometadatas_long.json"),
+     (edge_tts_long("./tests/test2.txt"),"/audiometadatas_long2.json")
+])
+def test_edge_tts_deal_audio_metadata_for_subtitle_for_long(edge_tts: EdgeTTS, audiometadatas_file):
 
-    with open(current_dir+"/audiometadatas_long.json", "r") as f:
+    with open(current_dir+audiometadatas_file, "r") as f:
         audio_metadatas = json.load(f)
-    rsts =  edge_tts_long.deal_audio_metadata_for_subtitle(audio_metadatas)
+    rsts =  edge_tts.deal_audio_metadata_for_subtitle(audio_metadatas)
     assert rsts != None
 
 def test_edge_tts_subtitle_save(edge_tts: EdgeTTS ):

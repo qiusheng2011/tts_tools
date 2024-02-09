@@ -1,3 +1,4 @@
+import asyncio
 import os
 import httpx
 from .edge_model import (
@@ -12,6 +13,7 @@ class EdgeTtsSDK(TtsSDK):
 
     def __init__(self, baseurl=""):
         self.baseurl = baseurl
+        self.tts_process_info = None
 
     def get_voice_type(self, apipath="/consumer/speech/synthesize/readaloud/voices/list", trustedclienttoken="6A5AA1D4EAFF4E9FB37E23D68491D6F4") -> list[VoiceType]:
         """获取发音的类型信息
@@ -33,13 +35,27 @@ class EdgeTtsSDK(TtsSDK):
         rsts = tts.get_rsts()
         return rsts
 
-    def textfile_to_speech_file(self, filepath: str, voice_type: VoiceType, debug=False):
+    def textfile_to_speech_file(self, filepath: str, voice_type: VoiceType, show_process_bar=False, debug=False):
+        asyncio.run(self.aio_textfile_to_speech_file(
+            filepath, voice_type, show_process_bar, debug))
+
+    async def aio_textfile_to_speech_file(self, filepath: str, voice_type: VoiceType, show_process_bar=False, debug=False):
         out_dirpath = os.path.dirname(os.path.abspath(filepath))
-        out_filename =  os.path.splitext(os.path.basename(filepath))[0]+f"_vt{voice_type.name_md5}"
+        out_filename = os.path.splitext(os.path.basename(filepath))[
+            0]+f"_vt{voice_type.name_md5}"
         tts = None
         with open(filepath, "r") as f:
             tts: EdgeTTS = EdgeTTS(f.read(), voice_type)
-        tts.execute()
+        try:
+            if show_process_bar:
+                tasks = []
+                async with asyncio.TaskGroup() as tg:
+                    tasks.append(tg.create_task(tts.async_execute()))
+                    tasks.append(tg.create_task(tts.show_process_bar()))
+            else:
+                await tts.async_execute()
+        except Exception as ex:
+            raise ex
         tts.audio_save(out_filename, out_dirpath)
         tts.subtitle_save(out_filename, out_dirpath, debug=debug)
-        return 
+        return

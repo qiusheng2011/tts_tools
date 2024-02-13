@@ -1,9 +1,7 @@
-
-import argparse
-import os
 import sys
-from . import tts
-from .edge_tts_sdk import EdgeTtsSDK
+import argparse
+from tts_tool import tts
+from tts_tool.edge_tts_sdk import EdgeTtsSDK
 
 
 class TTSCli():
@@ -30,6 +28,7 @@ class TTSCli():
     def parse_args(self, *args, **kwargs):
         self.args = self.parse.parse_args(*args, **kwargs)
         self.inputfile = self.args.inputfile
+
         if self.args.tts_type == "edge":
             self.tts_sdk = EdgeTtsSDK("https://speech.platform.bing.com")
             types = self.tts_sdk.get_voice_type()
@@ -52,3 +51,7 @@ def main():
     tts_cli = TTSCli()
     tts_cli.parse_args()
     tts_cli.execute(show_process_bar=True)
+
+
+if __name__ == "__main__":
+    main()

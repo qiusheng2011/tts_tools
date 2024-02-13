@@ -5,12 +5,19 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python 调试程序: 当前文件",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "tss_cli-l",
       "type": "debugpy",
       "request": "launch",
       "program": "src/tts_cli.py",
-      "args": ["-l", "-t" ,"edge"],
-      "console": "integratedTerminal",
+      "args": ["-l", "-t", "edge"],
+      "console": "integratedTerminal"
     },
 
     {

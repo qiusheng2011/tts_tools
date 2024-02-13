@@ -4,9 +4,9 @@ import sys
 import pytest
 import asyncio
 import json
-from src.edge_model import VoiceType
+from src.tts_tool.edge_model import VoiceType
 
-from src.edge_tts import EdgeTTS, VoiceType
+from src.tts_tool.edge_tts import EdgeTTS, VoiceType
 
 
 current_dir = os.path.dirname(os.path.abspath(__file__))

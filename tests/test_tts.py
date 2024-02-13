@@ -1,5 +1,5 @@
 import pytest
-from src.tts import (
+from src.tts_tool.tts import (
     TTS
 )
 import re

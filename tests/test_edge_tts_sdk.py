@@ -5,7 +5,7 @@ import sys, os
 myPath = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, myPath + '/../')
 
-from src.edge_tts_sdk import (
+from src.tts_tool.edge_tts_sdk import (
     EdgeTtsSDK,
     VoiceTag,
     VoiceType

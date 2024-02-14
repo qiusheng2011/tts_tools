@@ -1,7 +1,7 @@
 import sys
 import argparse
-from tts_tool import tts
-from tts_tool.edge_tts_sdk import EdgeTtsSDK
+from .tts_tool import tts
+from .tts_tool.edge_tts_sdk import EdgeTtsSDK
 
 
 class TTSCli():

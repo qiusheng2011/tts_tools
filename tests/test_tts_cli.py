@@ -1,5 +1,5 @@
 import pytest
-from tts_cli import (
+from src.tts_cli import (
     TTSCli
 )
 @pytest.mark.parametrize("file_path",[

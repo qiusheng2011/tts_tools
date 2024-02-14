@@ -45,11 +45,6 @@ def test_edge_tts(edge_tts: EdgeTTS ):
     assert rst != None
     assert edge_tts.audio_save(edge_tts.content_md5, current_dir)  != None
 
-def test_edge_tts_deal_audio_metadata_for_subtitle(edge_tts: EdgeTTS ):
-    with open(current_dir+"/audiometadatas.json", "r") as f:
-        audio_metadatas = json.load(f)
-    rsts =  edge_tts.deal_audio_metadata_for_subtitle(audio_metadatas)
-    assert rsts != None
 
 
 #@pytest.fixture

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tts-tool"
+version= "0.0.1"
+authors=[{name="ferisjskaldjfe",email="xxx@email.com"},]
+description="文本转语音lib库"
+readme="README.md"
+requires-python=">=3.10"
+dependencies = [
+    "pydantic==2.6.0",
+    "httpx>=0.26.0",
+    "websockets>=12.0"
+]

@@ -1,0 +1,646 @@
+[
+  [
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1000000,
+            "Duration": 48000000,
+            "text": {
+              "Text": "生活篇】神经转移深度放松休息法5分钟深度放松",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 48500000,
+            "Duration": 45625000,
+            "text": {
+              "Text": "生在洼地韭菜国，大部分的人都是活的很辛苦。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 94125000,
+            "Duration": 107625000,
+            "text": {
+              "Text": "从小学初中，高中，大学，到工作，没有豪爹强妈，还能一路艰难求学工作，很多人都是在不断逼迫自己的情境摸爬滚打。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 201750000,
+            "Duration": 61875000,
+            "text": {
+              "Text": "靠着这种思维，最终收获只会是一颗千疮百孔，伤痕累累的心。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 263625000,
+            "Duration": 101125000,
+            "text": {
+              "Text": "时常感觉精神和身体的疲惫，哪怕你睡眠足够，只要醒着，就会感到疲惫，长时间如此，我们的身心都会陷入病态。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 364750000,
+            "Duration": 68750000,
+            "text": {
+              "Text": "身心俱疲的真正原因是整个身体和精神的潜意识始终保持高度紧绷的状态。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 433500000,
+            "Duration": 86625000,
+            "text": {
+              "Text": "有钱人有时间和金钱，他们用按摩，泡温泉等娱乐措施来放松自己，而大部分韭菜并没有这个条件。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 520125000,
+            "Duration": 61625000,
+            "text": {
+              "Text": "今天分享的这个方法希望可以很好的帮助你真正的放松自己，休息自己。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 581750000,
+            "Duration": 37500000,
+            "text": {
+              "Text": "这个方法就是神经转移深度放松休息法。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 619250000,
+            "Duration": 96250000,
+            "text": {
+              "Text": "这是我想了很久给这个方法起的名字，也许你听过正念，打禅等之类的理论，也许他们有些相通，但是显的非常玄学。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 715500000,
+            "Duration": 50000000,
+            "text": {
+              "Text": "基于去除一切花里胡哨，直达目的，我就起了这个名字。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 765500000,
+            "Duration": 32500000,
+            "text": {
+              "Text": "什么是神经转移深度放松休息法？",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 798000000,
+            "Duration": 107000000,
+            "text": {
+              "Text": "神经转移深度放松休息法最核心的原则就是神经（注意力）只有被转移到低脑力能耗的时候，大脑才能得到真正的喘息。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 905000000,
+            "Duration": 52375000,
+            "text": {
+              "Text": "这也是为什么所有动物都需要睡眠来给大脑喘息的时间的原因。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 957375000,
+            "Duration": 67000000,
+            "text": {
+              "Text": "睡眠是另一大的主题，我们这里讲的是在清醒的状态下做到深度放松休息。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1024375000,
+            "Duration": 148250000,
+            "text": {
+              "Text": "清醒的状态下，人会一直保持注意力，如果没有注意力那就不是清醒，神经转移的目的是为了人在清醒的时候降低大脑运行负荷，将大脑的负荷将到最低，给大脑喘息的机会。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1172625000,
+            "Duration": 26875000,
+            "text": {
+              "Text": "接下来我们就聊聊如何做！",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1199500000,
+            "Duration": 19750000,
+            "text": {
+              "Text": "如何神经转移？",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1219250000,
+            "Duration": 114875000,
+            "text": {
+              "Text": "神经转移没有特定的路径，非得怎样怎样，只要基于神经转移深度放松休息法的原则，你甚至可以自己创造自己的神经转移的休息路径方法。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1334125000,
+            "Duration": 48250000,
+            "text": {
+              "Text": "下面基于我自身的经验提供神经转移的参考方法。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1382375000,
+            "Duration": 51250000,
+            "text": {
+              "Text": "器官感知的神经转移：为了降低不必要的脑力消耗，",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1000000,
+            "Duration": 93375000,
+            "text": {
+              "Text": "在一个低噪音或者安静的环境，闭上双眼，将自己的注意力全部集中自己的身体的某个器官上，尽全力去感。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 93875000,
+            "Duration": 55375000,
+            "text": {
+              "Text": "脑子会有不断干扰，就不断努力打断干扰集中注意力去感知。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 149250000,
+            "Duration": 58125000,
+            "text": {
+              "Text": "不断练习将这种感知从几秒提升到10几秒甚至是几分钟。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 207375000,
+            "Duration": 27125000,
+            "text": {
+              "Text": "这个过程并非那么容易。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 234500000,
+            "Duration": 155375000,
+            "text": {
+              "Text": "一开始你可能坚持不了几秒也感受不到任何效果，但是一旦你将这个时间保持5秒以上，你就会感受的强烈的效果，你的身体会自然放松，你会不自觉的大口呼吸，你的身体会持续变得轻飘飘。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 389875000,
+            "Duration": 55250000,
+            "text": {
+              "Text": "一旦你体会到这样的感觉，你会疯狂迷恋上这种放松的状态。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 445125000,
+            "Duration": 37875000,
+            "text": {
+              "Text": "其中有个难点就是选择哪一个器官去感知。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 483000000,
+            "Duration": 72500000,
+            "text": {
+              "Text": "我尝试过内脏，双手，双脚，在很长时间的探索下我自己比较有效果的是双脚。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 555500000,
+            "Duration": 85375000,
+            "text": {
+              "Text": "当你去感受你的器官是你会不自觉控制它，一旦你的器官受到你的控制，大脑就又在高度运行了。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 640875000,
+            "Duration": 52875000,
+            "text": {
+              "Text": "感受器官而不是控制器官，这是神经转移的成功关键。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 693750000,
+            "Duration": 66250000,
+            "text": {
+              "Text": "我自己将神经注意力转移到双脚上能很好达到那种感知但不控制的状态。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 760000000,
+            "Duration": 44375000,
+            "text": {
+              "Text": "其他器官我都尝试过，都没有双脚的效果好。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 804375000,
+            "Duration": 82750000,
+            "text": {
+              "Text": "在我将神经转移到我的双脚上的时候，我的双脚会处在一个将要移动但是并没有移动的一个紧绷状态。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 887125000,
+            "Duration": 55000000,
+            "text": {
+              "Text": "这种紧绷感并非肌肉的紧绷而是双腿双脚神经的紧绷。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 942125000,
+            "Duration": 88125000,
+            "text": {
+              "Text": "就这样的一个状态下，你的大脑处在一个低能耗喘息的状态，这个时间持续的越久，你的休息的越充分。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1030250000,
+            "Duration": 60500000,
+            "text": {
+              "Text": "只要你处在这样的神经转移的状态，你就等于处在深度放松休息的状态。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1090750000,
+            "Duration": 71375000,
+            "text": {
+              "Text": "当你从这样状态中恢复到正常的状态中，你会惊讶发现自己精力充沛，双目有神。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1162125000,
+            "Duration": 147875000,
+            "text": {
+              "Text": "方法有了，你需要做的就是不断的去练习，将神经转移的状态从1秒的状态提升30秒，那时你就打开了新世界的大门，一分钟以上的话，你将掌握5分钟进入深度睡眠的奥秘。",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Metadata": [
+        {
+          "Type": "SentenceBoundary",
+          "Data": {
+            "Offset": 1310000000,
+            "Duration": 66875000,
+            "text": {
+              "Text": "关于神经转移的方法如果你有更好的见解，欢迎留言探讨，我们下期见！",
+              "Length": 0,
+              "BoundaryType": "SentenceBoundary"
+            }
+          }
+        }
+      ]
+    }
+  ]
+]

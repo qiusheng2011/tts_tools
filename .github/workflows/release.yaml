@@ -1,5 +1,5 @@
 name: publish_package
-run-name: 生成可用的包$github.ref
+run-name: 生成可用的包${{github.ref}}
 
 on:
   push:

@@ -1,11 +1,12 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Python package
+name: tests
+run-name: 自动化测试
 
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "main","dev"]
   pull_request:
     branches: [ "main" ]
 

@@ -16,8 +16,7 @@ jobs:
       matrix:
         python-version: ["3.12"]
     steps:
-      - uses: actions/checkout@${{ github.ref }}
-  
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}

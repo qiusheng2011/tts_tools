@@ -20,12 +20,12 @@ class TTSCli():
 
     def init_args(self):
         parse = argparse.ArgumentParser(description="TTS Cli")
-        parse.add_argument("-l", "--list", action="store_true")
+        parse.add_argument("-l", "--list", action="store_true", help="可用的语音列表")
         parse.add_argument("-i", "--inputfile", metavar="I",
                            type=str, help="文本文件")
         parse.add_argument("-t", "--tts-type", metavar="T",
-                           choices=["edge"], default="edge")
-        parse.add_argument("-v", "--voice-type", metavar="v")
+                           choices=["edge"], default="edge", help="tts 类型 目前仅 edge 可用")
+        parse.add_argument("-v", "--voice-type", metavar="v", help="语音的名称")
         return parse
 
     def parse_args(self, *args, **kwargs):

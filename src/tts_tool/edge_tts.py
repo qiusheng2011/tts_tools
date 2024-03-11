@@ -1,7 +1,6 @@
 import sys
 import asyncio
 import json
-from tkinter import OFF
 import uuid
 from datetime import datetime
 from collections import namedtuple
@@ -75,8 +74,7 @@ class EdgeTTS(TTS):
         while self.execute_process_info["process"] < 1.0:
             await asyncio.sleep(0.2)
             sys.stdout.write("\r")  # 将光标移动到行首
-            p_str = "处理中:"+"#"*int(1+50*self.execute_process_info['process'])+f"%{
-                self.execute_process_info['process']*100:.4}"
+            p_str = "处理中:"+"#"*int(1+50*self.execute_process_info['process'])+f"%{self.execute_process_info['process']*100:.4}"
             sys.stdout.write(p_str)  # 使用空格覆盖当前行的内容
             sys.stdout.write("\r")  # 将光标移动到行首
             sys.stdout.flush()
@@ -312,8 +310,10 @@ class EdgeTTS(TTS):
         """
         tmps = []
         for i, s in enumerate(subtile_aduio_metadatas, start=1):
-            tmp = f"{i}\n{self.mktimestamp(s['aduio_start_timestamp'])}-->{self.mktimestamp(
-                s['aduio_end_timestamp'])}\n{s['sentence'].strip(r"\r|\n")}"
+            aduio_start_timestamp = self.mktimestamp(s['aduio_start_timestamp'])
+            aduio_end_timestamp = self.mktimestamp(s['aduio_end_timestamp'])
+            sentence = s['sentence'].strip(r'\r|\n')
+            tmp = f"{i}\n{aduio_start_timestamp}-->{aduio_end_timestamp}\n{sentence}"
             tmps.append(tmp)
 
         return "\n\n".join(tmps)

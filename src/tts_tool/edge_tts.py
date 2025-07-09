@@ -1,12 +1,16 @@
 import sys
 import asyncio
 import json
+import urllib.parse
 import uuid
 from datetime import datetime
+from datetime import timezone as tz
 from collections import namedtuple
 import logging
 import re
 import time
+import urllib
+import hashlib
 
 import pytz
 import websockets
@@ -20,7 +24,9 @@ from .edge_model import (
     VoiceType
 )
 
-edge_wss_url = "wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId={connection_id}"
+edge_wss_url = "wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+
+# TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&Sec-MS-GEC=9811368F1C5FE18BAD86F73BD5CC28C8CE3D9104A830C305CC317C63CEAFDCA0&Sec-MS-GEC-Version=1-132.0.2957.140&ConnectionId={connection_id}
 
 MAX_LEN_CONTENT_PER_TTS = 742
 
@@ -196,12 +202,52 @@ class EdgeTTS(TTS):
             "Pragma": "no-cache",
             "Cache-Control": "no-cache",
             "Origin": "chrome-extension://jdiccldimpdaibmpdkjnbmckianbfold",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Accept-Language": "en-US,en;q=0.9",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-            " (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 Edg/91.0.864.41",
+            "Accept-Encoding": "gzip, deflate, br, zstd",
+            # "Sec-WebSocket-Key": 'PCoiwkYq+B78jbN6PJslwQ==',
+            # "Sec-WebSocket-Version": 13,
+            # "Sec-WebSocket-Extensions": "permessage-deflate; client_max_window_bits",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0",
         }
         return headers
+
+    @staticmethod
+    def _generate_edge_api_sec_ms_gec() -> str:
+        """
+        Generates the Sec-MS-GEC token value.
+
+        This function generates a token value based on the current time in Windows file time format
+        adjusted for clock skew, and rounded down to the nearest 5 minutes. The token is then hashed
+        using SHA256 and returned as an uppercased hex digest.
+
+        Returns:
+            str: The generated Sec-MS-GEC token value.
+
+        See Also:
+            https://github.com/rany2/edge-tts/issues/290#issuecomment-2464956570
+        """
+        WIN_EPOCH = 11644473600
+        S_TO_NS = 1e9
+        TRUSTED_CLIENT_TOKEN = "6A5AA1D4EAFF4E9FB37E23D68491D6F4"
+
+        # Get the current timestamp in Unix format with clock skew correction
+        ticks = datetime.now(tz.utc).timestamp()
+
+        # Switch to Windows file time epoch (1601-01-01 00:00:00 UTC)
+
+        ticks += WIN_EPOCH
+
+        # Round down to the nearest 5 minutes (300 seconds)
+        ticks -= ticks % 300
+
+        # Convert the ticks to 100-nanosecond intervals (Windows file time format)
+        ticks *= S_TO_NS / 100
+
+        # Create the string to hash by concatenating the ticks and the trusted client token
+        str_to_hash = f"{ticks:.0f}{TRUSTED_CLIENT_TOKEN}"
+
+        # Compute the SHA256 hash and return the uppercased hex digest
+        return hashlib.sha256(str_to_hash.encode("ascii")).hexdigest().upper()
 
     async def deal_by_wss(self, content: str, process_info: dict, process_ratio: float):
         """ 内容转录成语音
@@ -210,10 +256,33 @@ class EdgeTTS(TTS):
         audio_metadata = []
         audio_info = {}
         audio_bytes = bytearray()
+        connection_id = uuid.uuid4().hex
         try:
-            async with websockets.connect(edge_wss_url.format(connection_id=uuid.uuid4().hex), extra_headers=self.make_ws_connect_header()) as websocket:
+            wss_url = urllib.parse.urlunparse((
+                "wss",
+                "speech.platform.bing.com",
+                "/consumer/speech/synthesize/readaloud/edge/v1",
+                "",
+                urllib.parse.urlencode(
+                    {
+                        "TrustedClientToken": "6A5AA1D4EAFF4E9FB37E23D68491D6F4",
+                        "Sec-MS-GEC": self._generate_edge_api_sec_ms_gec(),
+                        "Sec-MS-GEC-Version": "1-132.0.2957.140",
+                        "ConnectionId": connection_id
+                    }
+                ),
+                ""
+            ))
+            async with websockets.connect(
+                wss_url,
+                additional_headers=self.make_ws_connect_header(),
+                ping_interval=1,
+                ping_timeout=2
+            ) as websocket:
 
-                await websocket.send(self.make_config_message(sentence_boundary_onoff=self.sentence_boundary_onoff, word_boundary_onoff=self.word_boundary_onoff))
+                await websocket.send(
+                    self.make_config_message(sentence_boundary_onoff=self.sentence_boundary_onoff, word_boundary_onoff=self.word_boundary_onoff)
+                )
                 await websocket.send(self.make_voice_type_content_message(content))
                 while True:
                     response_data = await websocket.recv()

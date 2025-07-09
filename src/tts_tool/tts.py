@@ -5,6 +5,7 @@ import hashlib
 import math
 import re
 
+
 class TTSStatus(Enum):
     """转语音的状态
     """
@@ -19,7 +20,7 @@ class TTSStatus(Enum):
 
 
 class TTS:
-    def __init__(self, content:str):
+    def __init__(self, content: str):
         self.status: TTSStatus = TTSStatus.UNSTART
         self.content = content
         self.content_md5 = hashlib.md5(content.encode()).hexdigest()
@@ -29,7 +30,7 @@ class TTS:
         """执行
         """
         pass
-    
+
     @abstractmethod
     def execute_process(self) -> float:
         pass
@@ -40,15 +41,14 @@ class TTS:
         """
         pass
 
-
     @abstractmethod
     def audio_save(self, filename, filepath, filetype):
-         if self.status != TTSStatus.COMPLETED:
+        if self.status != TTSStatus.COMPLETED:
             raise ValueError(f"任务处于{self.status.name}状态,无法完成存储")
 
     @abstractmethod
-    def subtitle_save(self,filename, filepath, subtile_type="srt"):
-         if self.status != TTSStatus.COMPLETED:
+    def subtitle_save(self, filename, filepath, subtile_type="srt"):
+        if self.status != TTSStatus.COMPLETED:
             raise ValueError(f"任务处于{self.status.name}状态,无法完成存储")
 
     @staticmethod
@@ -79,7 +79,7 @@ class TTS:
             while (tmp_index+m_l_c) < len(content):
                 step = 0
                 while re.match(r"[\u4E00-\u9FFF]",  content[tmp_index+m_l_c+step]):
-                    step-=1
+                    step -= 1
                 content_parts.append(content[tmp_index:tmp_index+m_l_c+step+1])
                 tmp_index = tmp_index+m_l_c+step+1
             if content[tmp_index:]:
@@ -87,10 +87,7 @@ class TTS:
         return content_parts
 
 
-
-
 class TtsSDK():
-
 
     def get_voice_type(self):
         pass
@@ -98,6 +95,5 @@ class TtsSDK():
     def text_to_speech(self, content, voice_type):
         pass
 
-    def textfile_to_speech_file(self, filepath, voice_type, debug=False):
+    def textfile_to_speech_file(self, filepath, voice_type, show_process_bar=False, debug=False):
         pass
-

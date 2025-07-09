@@ -9,6 +9,7 @@ from pydantic import (
     computed_field
 )
 
+
 class VoiceTag(BaseModel):
     content_categories: List[str] = Field(
         List[str], validation_alias=AliasChoices("ContentCategories"))
@@ -38,7 +39,7 @@ class VoiceType(BaseModel):
         }
     """
     name: str = Field(str, validation_alias=AliasChoices("Name"))
-    name_md5:Optional[str] = None
+    name_md5: Optional[str] = None
     short_name: str = Field(str, validation_alias=AliasChoices("ShortName"))
     gender: str = Field(str, validation_alias=AliasChoices("Gender"))
     locale: str = Field(str, validation_alias=AliasChoices("Locale"))
@@ -53,7 +54,7 @@ class VoiceType(BaseModel):
     @computed_field
     def suggested_codec_audio_type(self) -> str:
         return self.suggested_codec.split("-")[-1]
-    
+
     def __init__(self, *arg, **kwargs):
         super().__init__(*arg, **kwargs)
         self.name_md5 = hashlib.md5(self.name.encode("utf8")).hexdigest()

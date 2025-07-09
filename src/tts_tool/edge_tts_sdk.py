@@ -17,10 +17,19 @@ class EdgeTtsSDK(TtsSDK):
 
     def get_voice_type(self, apipath="/consumer/speech/synthesize/readaloud/voices/list", trustedclienttoken="6A5AA1D4EAFF4E9FB37E23D68491D6F4") -> list[VoiceType]:
         """获取发音的类型信息
+            https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/voices/list?trustedclienttoken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&Sec-MS-GEC=9811368F1C5FE18BAD86F73BD5CC28C8CE3D9104A830C305CC317C63CEAFDCA0&Sec-MS-GEC-Version=1-132.0.2957.140
         """
         api_url = f"{self.baseurl}/{apipath}"
-        rst = httpx.get(api_url, params=dict(
-            trustedclienttoken=trustedclienttoken))
+        rst = httpx.get(
+            api_url,
+            params={
+                "trustedclienttoken": trustedclienttoken,
+                "Sec-Ms-GEC": "9811368F1C5FE18BAD86F73BD5CC28C8CE3D9104A830C305CC317C63CEAFDCA0",
+                "Sec-MS-GEC-Version": "1-132.0.2957.140"
+            },
+            verify=False
+        )
+
         if rst.status_code == 200:
             out_l = []
             for i in rst.json():

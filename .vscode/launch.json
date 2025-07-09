@@ -19,6 +19,21 @@
       "args": ["-l", "-t", "edge"],
       "console": "integratedTerminal"
     },
+    {
+      "name": "tss_cli",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "src/tts_cli.py",
+      "args": [
+        "-i",
+        "/Users/gxz/Downloads/tts-test.txt",
+         "-t", 
+         "edge",
+         "-v",
+         "Microsoft Xiaoxiao Online (Natural) - Chinese (Mainland)"
+      ],
+      "console": "integratedTerminal"
+    }
 
     {
       "name": "Python: pytest",

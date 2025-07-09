@@ -11,3 +11,10 @@ options:
   -t T, --tts-type T    tts 类型 目前仅 edge 可用
   -v v, --voice-type v  语音的名称
 ```
+
+# update
+
+## 2025-09-07
+
+1. 升级依赖库
+2. 支持 python=3.13
